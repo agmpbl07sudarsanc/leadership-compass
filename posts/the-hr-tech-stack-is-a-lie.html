@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>The HR Tech Stack Is a Lie (And What to Build Instead) - The Leadership Compass</title>
+  <meta name="description" content="Sixteen tools, zero integration, and a spreadsheet holding it all together. The problem is not technology - it is architecture. A three-phase roadmap for an HR stack that works.">
+  <link rel="stylesheet" href="../css/style.css">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><circle cx='50' cy='50' r='46' fill='white' stroke='%2318181B' stroke-width='6'/><circle cx='50' cy='50' r='36' fill='none' stroke='%23D97706' stroke-width='3'/><polygon points='50,50 50,12 42,55' fill='%23D97706'/><polygon points='50,50 50,12 58,55' fill='%23F59E0B'/><polygon points='50,50 50,88 42,45' fill='%2318181B'/><polygon points='50,50 50,88 58,45' fill='%233F3F46'/><polygon points='50,50 12,50 55,42' fill='%2318181B'/><polygon points='50,50 88,50 45,58' fill='%2318181B'/><circle cx='50' cy='50' r='5' fill='%2318181B'/></svg>">
+</head>
+<body>
+  <a href="#main" class="skip-link">Skip to main content</a>
+
+  <nav class="navbar" role="navigation" aria-label="Main navigation">
+    <div class="navbar-inner">
+      <a href="../index.html" class="navbar-brand">
+        <span class="brand-icon">
+          <img src="../images/logo-mark.svg" alt="" width="36" height="36">
+        </span>
+        The Leadership Compass
+      </a>
+      <ul class="navbar-links">
+        <li><a href="../index.html">Home</a></li>
+        <li><a href="../pages/blog.html">Blog</a></li>
+        <li><a href="../pages/about.html">About</a></li>
+        <li><a href="../pages/speaking.html">Speaking</a></li>
+        <li><a href="../pages/resources.html">Resources</a></li>
+        <li><a href="../pages/newsletter.html" class="navbar-cta">Subscribe</a></li>
+      </ul>
+      <button class="menu-toggle" aria-label="Toggle navigation menu" aria-expanded="false">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/></svg>
+      </button>
+    </div>
+  </nav>
+
+  <main id="main">
+    <article>
+      <header class="post-header">
+        <span class="post-tag">HR Strategy</span>
+        <h1>The HR Tech Stack Is a Lie (And What to Build Instead)</h1>
+        <div class="post-meta">
+          <span>By Sudarshan</span>
+          <span class="divider" aria-hidden="true"></span>
+          <span>May 28, 2026</span>
+          <span class="divider" aria-hidden="true"></span>
+          <span>10 min read</span>
+        </div>
+      </header>
+
+      <div class="post-hero-image">
+        <div class="image-placeholder">
+          <div class="pattern"></div>
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><polygon points="12 2 19 21 12 17 5 21 12 2"/></svg>
+        </div>
+      </div>
+
+      <div class="post-body">
+        <p>Walk into any mid-size company and ask to see their HR technology landscape. You'll get a slide with sixteen logos on it. An HRIS. An ATS. A learning platform. An engagement survey tool. A performance system. A comp tool. A recognition app. And somewhere, quietly holding the whole thing together, a spreadsheet named <em>FINAL_headcount_v7_USE_THIS_ONE.xlsx</em>.</p>
+
+        <p>We were promised integration. We bought best-of-breed. What we got was a stack of silos with single sign-on.</p>
+
+        <blockquote>
+          The problem was never the tools. The problem is that we bought tools instead of designing an architecture.
+        </blockquote>
+
+        <h2>How We Got Here</h2>
+
+        <p>Nobody sets out to build a Frankenstein stack. It accumulates. A new CHRO arrives and brings their favorite engagement platform. Recruiting can't wait for the HRIS roadmap, so they buy their own ATS. Learning gets budget in a year when nothing else does. Each decision is locally rational. The system that results is globally incoherent.</p>
+
+        <p>The vendors aren't innocent either. Every platform claims to be the "single source of truth," which is exactly why you now have six of them.</p>
+
+        <h2>The Architecture-First Alternative</h2>
+
+        <p>Before you evaluate another tool, answer three questions about your data &mdash; not your features:</p>
+
+        <ol>
+          <li><strong>Where does each data type originate?</strong> Employee master data, compensation, performance, skills, learning history &mdash; each needs exactly one system of record. Write it down. Make it policy.</li>
+          <li><strong>Where does data need to flow?</strong> Map the integrations you need <em>before</em> you sign. A brilliant tool that can't connect to your ecosystem isn't a tool &mdash; it's a future silo with a subscription fee.</li>
+          <li><strong>Who consumes the data, and when?</strong> Most reporting needs are weekly or monthly, not real-time. Knowing your actual consumption patterns prevents paying for plumbing you'll never use.</li>
+        </ol>
+
+        <div class="callout">
+          <p><strong>The one-question vendor test:</strong> Ask any vendor, "What happens to my data when I leave you?" The quality and speed of the answer tells you more than the entire demo.</p>
+        </div>
+
+        <h2>A Realistic Three-Phase Roadmap</h2>
+
+        <h3>Phase 1: Consolidate (months 1&ndash;6)</h3>
+
+        <p>Audit what you have. You will find redundancies &mdash; two survey tools, three places where goals live. Sunset anything that doesn't integrate and isn't loved. The goal isn't fewer tools; it's fewer <em>disconnected</em> tools.</p>
+
+        <h3>Phase 2: Connect (months 6&ndash;12)</h3>
+
+        <p>Invest in your integration layer. Middleware has matured dramatically; an iPaaS that moves data between systems reliably is worth more than any single new application. This is unglamorous work that no one will praise you for &mdash; until everything simply works.</p>
+
+        <h3>Phase 3: Augment (year 2)</h3>
+
+        <p>Only after the foundation is sound should you layer on AI. Start with low-risk, high-value use cases: document processing, scheduling, self-service FAQ. Be far more cautious with anything that scores people &mdash; flight-risk models and candidate-ranking algorithms can automate bias at scale if the underlying data is messy. And after phases 1 and 2, you will finally know whether it is.</p>
+
+        <h2>The Uncomfortable Truth</h2>
+
+        <p>The organizations winning with HR technology aren't the ones with the biggest budgets or the newest tools. They're the ones that did the boring architectural work first.</p>
+
+        <p>Your stack doesn't need another logo. It needs a blueprint.</p>
+
+        <div class="author-box">
+          <div class="author-avatar" aria-hidden="true">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/></svg>
+          </div>
+          <div>
+            <h4>Written by Sudarshan</h4>
+            <p>HR leader, writer, and speaker exploring the intersection of leadership, people strategy, and the future of work. <a href="../pages/about.html" style="color: var(--color-accent); font-weight: 600;">Learn more</a></p>
+          </div>
+        </div>
+      </div>
+    </article>
+  </main>
+
+  <section class="newsletter-section" aria-label="Newsletter subscription">
+    <div class="newsletter-inner">
+      <h2>Enjoyed This Article?</h2>
+      <p>Get essays like this delivered to your inbox every Tuesday. Join 2,400+ leaders who start their week with The Leadership Compass.</p>
+      <form class="hero-newsletter" data-newsletter aria-label="Newsletter signup">
+        <input type="email" placeholder="Enter your email" required aria-label="Email address">
+        <button type="submit">Subscribe</button>
+      </form>
+    </div>
+  </section>
+
+  <footer class="footer" role="contentinfo">
+    <div class="footer-inner">
+      <div class="footer-brand">
+        <a href="../index.html" class="navbar-brand">
+          <span class="brand-icon">
+            <img src="../images/logo-mark.svg" alt="" width="36" height="36">
+          </span>
+          The Leadership Compass
+        </a>
+        <p>Bold ideas and honest conversations about HR, leadership, and building workplaces that work for everyone.</p>
+      </div>
+      <div class="footer-col">
+        <h4>Navigate</h4>
+        <ul>
+          <li><a href="../index.html">Home</a></li>
+          <li><a href="../pages/blog.html">Blog</a></li>
+          <li><a href="../pages/about.html">About</a></li>
+          <li><a href="../pages/speaking.html">Speaking</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Topics</h4>
+        <ul>
+          <li><a href="../pages/blog.html">Leadership</a></li>
+          <li><a href="../pages/blog.html">HR Strategy</a></li>
+          <li><a href="../pages/blog.html">Culture</a></li>
+          <li><a href="../pages/blog.html">Future of Work</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Connect</h4>
+        <ul>
+          <li><a href="../pages/newsletter.html">Newsletter</a></li>
+          <li><a href="../pages/resources.html">Resources</a></li>
+          <li><a href="#">LinkedIn</a></li>
+          <li><a href="#">Twitter / X</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>&copy; 2026 The Leadership Compass by Sudarshan. All rights reserved.</span>
+      <div class="social-links">
+        <a href="#" aria-label="LinkedIn">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg>
+        </a>
+        <a href="#" aria-label="Twitter">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z"/></svg>
+        </a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="../js/main.js"></script>
+</body>
+</html>
