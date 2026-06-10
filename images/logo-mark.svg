@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <!-- Compass mark recolored to site theme: zinc #18181B / #3F3F46, amber #D97706 -->
+  <!-- Outer zinc ring -->
+  <circle cx="50" cy="50" r="46" fill="none" stroke="#18181B" stroke-width="5"/>
+  <!-- Inner amber ring -->
+  <circle cx="50" cy="50" r="38" fill="none" stroke="#D97706" stroke-width="1.8"/>
+  <!-- Tick marks at N E S W -->
+  <g stroke="#18181B" stroke-width="2">
+    <line x1="50" y1="9" x2="50" y2="16"/>
+    <line x1="50" y1="84" x2="50" y2="91"/>
+    <line x1="9" y1="50" x2="16" y2="50"/>
+    <line x1="84" y1="50" x2="91" y2="50"/>
+  </g>
+  <!-- Diagonal short points (zinc) -->
+  <g fill="#3F3F46">
+    <polygon points="50,50 28,28 44,44"/>
+    <polygon points="50,50 72,28 56,44"/>
+    <polygon points="50,50 72,72 56,56"/>
+    <polygon points="50,50 28,72 44,56"/>
+  </g>
+  <!-- E / W points (zinc, two-tone) -->
+  <polygon points="50,50 16,50 46,44" fill="#18181B"/>
+  <polygon points="50,50 16,50 46,56" fill="#3F3F46"/>
+  <polygon points="50,50 84,50 54,44" fill="#3F3F46"/>
+  <polygon points="50,50 84,50 54,56" fill="#18181B"/>
+  <!-- S point (zinc, two-tone) -->
+  <polygon points="50,50 50,88 44,54" fill="#18181B"/>
+  <polygon points="50,50 50,88 56,54" fill="#3F3F46"/>
+  <!-- N needle (amber, two-tone) -->
+  <polygon points="50,50 50,10 44,54" fill="#D97706"/>
+  <polygon points="50,50 50,10 56,54" fill="#F59E0B"/>
+  <!-- Center hub -->
+  <circle cx="50" cy="50" r="5" fill="#18181B"/>
+  <circle cx="50" cy="50" r="2.2" fill="#D97706"/>
+</svg>
