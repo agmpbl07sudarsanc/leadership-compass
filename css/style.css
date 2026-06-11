@@ -1671,3 +1671,10 @@ input:focus-visible {
   color: #fff;
   cursor: pointer;
 }
+
+/* hidden must win over the display:flex rules above, or these never close */
+.ai-search-overlay[hidden],
+.ai-modal[hidden],
+.ai-chat-panel[hidden] {
+  display: none;
+}
