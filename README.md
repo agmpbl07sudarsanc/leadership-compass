@@ -46,7 +46,10 @@ Everything is injected by one script, so pages only need the script tag:
    `post-header` block, and the contents of `.post-body`.
 2. Add a card to `pages/blog.html` (copy a `post-card`, set `data-topic`)
    and optionally to the grid in `index.html`.
-3. Register it in the `ARTICLES` array at the top of `js/features.js`
+3. Add an `<item>` for it in `feed.xml` (title, link, pubDate,
+   description) - this is what notifies email subscribers via the
+   Mailchimp RSS automation and RSS readers.
+4. Register it in the `ARTICLES` array at the top of `js/features.js`
    (url, title, tag, excerpt, keywords, quote, LinkedIn text) so search,
    recommendations, and share snippets pick it up.
 

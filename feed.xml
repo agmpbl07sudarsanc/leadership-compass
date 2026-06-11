@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>The Leadership Compass by Sudarshan</title>
+    <link>https://leadership-compass-tau.vercel.app/</link>
+    <description>Bold ideas and honest conversations about HR, leadership, and building workplaces that work for everyone.</description>
+    <language>en</language>
+    <atom:link href="https://leadership-compass-tau.vercel.app/feed.xml" rel="self" type="application/rss+xml"/>
+
+    <item>
+      <title>Why the Best Leaders Are Unlearning Everything They Know</title>
+      <link>https://leadership-compass-tau.vercel.app/posts/why-the-best-leaders-unlearn.html</link>
+      <guid>https://leadership-compass-tau.vercel.app/posts/why-the-best-leaders-unlearn.html</guid>
+      <pubDate>Fri, 05 Jun 2026 09:00:00 +0000</pubDate>
+      <description>The leadership playbook from 2015 is broken. In a world of AI, distributed teams, and five generations in the workforce, the leaders who thrive are the ones brave enough to start over.</description>
+    </item>
+
+    <item>
+      <title>The HR Tech Stack Is a Lie (And What to Build Instead)</title>
+      <link>https://leadership-compass-tau.vercel.app/posts/the-hr-tech-stack-is-a-lie.html</link>
+      <guid>https://leadership-compass-tau.vercel.app/posts/the-hr-tech-stack-is-a-lie.html</guid>
+      <pubDate>Thu, 28 May 2026 09:00:00 +0000</pubDate>
+      <description>Sixteen tools, zero integration, and a spreadsheet holding it all together. The problem is not technology - it is architecture. A three-phase roadmap for an HR stack that works.</description>
+    </item>
+
+    <item>
+      <title>Psychological Safety Is Not About Being Nice</title>
+      <link>https://leadership-compass-tau.vercel.app/posts/psychological-safety-is-not-about-being-nice.html</link>
+      <guid>https://leadership-compass-tau.vercel.app/posts/psychological-safety-is-not-about-being-nice.html</guid>
+      <pubDate>Wed, 20 May 2026 09:00:00 +0000</pubDate>
+      <description>The most psychologically safe teams argue more, not less. What the research actually found, the nice-team trap, and four practices that build real safety.</description>
+    </item>
+  </channel>
+</rss>
