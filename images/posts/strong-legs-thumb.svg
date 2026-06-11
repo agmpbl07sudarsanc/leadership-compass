@@ -49,7 +49,4 @@
 
   <text x="80" y="370" font-family="Verdana, Geneva, sans-serif" font-size="26" fill="#C5C5CC">What HR should really build</text>
 
-  <!-- Eyebrow tag -->
-  <rect x="80" y="118" width="148" height="36" rx="18" fill="#D97706" opacity="0.16"/>
-  <text x="154" y="142" font-family="Verdana, Geneva, sans-serif" font-size="17" font-weight="bold" fill="#F59E0B" text-anchor="middle" letter-spacing="2">LEADERSHIP</text>
 </svg>
