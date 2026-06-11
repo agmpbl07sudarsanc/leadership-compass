@@ -13,6 +13,15 @@
 
   var ARTICLES = [
     {
+      url: 'posts/strong-legs-or-easier-road.html',
+      title: 'Strong Legs or an Easier Road: What HR Should Really Build',
+      tag: 'Leadership',
+      excerpt: 'Most of modern HR is road-smoothing. The organizations that endure are building stronger travelers instead.',
+      keywords: 'resilience capacity development stretch assignments productive struggle friction snowplow growth recovery hard decisions capability building strength hr identity',
+      quote: 'Easier roads erode. Stronger legs travel anywhere.',
+      linkedin: "Don't ask for an easier road. Ask for stronger legs.\n\nMost of modern HR is road-smoothing: removing friction, softening feedback, clearing obstacles.\n\nBut you cannot smooth a road that hasn't been built yet - and the next decade of work is mostly unbuilt road.\n\nNew essay on The Leadership Compass.\n\n#HR #Leadership #Resilience"
+    },
+    {
       url: 'posts/why-the-best-leaders-unlearn.html',
       title: 'Why the Best Leaders Are Unlearning Everything They Know',
       tag: 'Leadership',
