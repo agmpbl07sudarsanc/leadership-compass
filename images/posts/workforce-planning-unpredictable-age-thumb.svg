@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#18181B"/>
+      <stop offset="1" stop-color="#26262C"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="675" fill="url(#bg)"/>
+  <g fill="#D97706" opacity="0.07">
+    <circle cx="60" cy="60" r="3"/><circle cx="160" cy="120" r="3"/><circle cx="80" cy="220" r="3"/>
+    <circle cx="200" cy="40" r="3"/><circle cx="280" cy="180" r="3"/><circle cx="120" cy="340" r="3"/>
+    <circle cx="1080" cy="600" r="3"/><circle cx="1140" cy="520" r="3"/><circle cx="1020" cy="560" r="3"/>
+  </g>
+  <g transform="translate(64,56) scale(0.62)">
+    <circle cx="50" cy="50" r="46" fill="none" stroke="#F4F4F5" stroke-width="5"/>
+    <circle cx="50" cy="50" r="38" fill="none" stroke="#D97706" stroke-width="2"/>
+    <polygon points="50,50 50,10 44,54" fill="#D97706"/>
+    <polygon points="50,50 50,10 56,54" fill="#F59E0B"/>
+    <polygon points="50,50 50,88 44,54" fill="#F4F4F5" opacity="0.5"/>
+    <polygon points="50,50 50,88 56,54" fill="#F4F4F5" opacity="0.3"/>
+    <circle cx="50" cy="50" r="4" fill="#F4F4F5"/>
+  </g>
+  <text x="140" y="86" font-family="Georgia, serif" font-size="22" fill="#9D9DA6" letter-spacing="2">THE LEADERSHIP COMPASS</text>
+  <text x="80" y="240" font-family="Verdana, Geneva, sans-serif" font-size="56" font-weight="bold" fill="#F4F4F5">Workforce Planning</text>
+  <text x="80" y="320" font-family="Verdana, Geneva, sans-serif" font-size="40" fill="#9D9DA6">when you <tspan font-size="56" font-weight="bold" fill="#D97706">Can't Predict</tspan></text>
+  <text x="80" y="385" font-family="Verdana, Geneva, sans-serif" font-size="24" fill="#C5C5CC">Build for bend, not for forecast</text>
+  <circle cx="960" cy="480" r="95" fill="none" stroke="#3F3F46" stroke-width="7"/><line x1="960" y1="480" x2="960" y2="412" stroke="#D97706" stroke-width="8" stroke-linecap="round"/><line x1="960" y1="480" x2="1015" y2="505" stroke="#F59E0B" stroke-width="8" stroke-linecap="round"/><circle cx="960" cy="480" r="8" fill="#F4F4F5"/>
+</svg>

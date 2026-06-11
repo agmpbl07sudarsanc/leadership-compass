@@ -13,6 +13,195 @@
 
   var ARTICLES = [
     {
+      url: 'posts/recognition-is-a-system.html',
+      title: 'Recognition Is a System, Not a Mood',
+      tag: 'Culture',
+      excerpt: 'Left to chance, recognition flows to the loud, the visible, and the recent - and your quiet contributors learn their lesson.',
+      keywords: 'recognition appreciation rewards visibility quiet contributors specific praise rituals peer recognition motivation retention morale',
+      quote: 'What gets recognized gets repeated. What goes unseen goes elsewhere.',
+      linkedin: 'Left to mood and memory, recognition flows to the loud, the visible, and the recent.\n\nYour quiet contributors learn the lesson - and take it to their next employer.\n\nWhat gets recognized gets repeated. What goes unseen goes elsewhere.\n\nNew essay on The Leadership Compass.\n\n#Recognition #Culture #Retention'
+    },
+    {
+      url: 'posts/remote-culture-isnt-built-on-zoom-happy-hours.html',
+      title: 'Remote Culture Isn\'t Built on Zoom Happy Hours',
+      tag: 'Culture',
+      excerpt: 'Remote culture is not the absence of an office. It is the presence of deliberate systems where hallways used to be.',
+      keywords: 'remote work distributed teams async documentation virtual culture connection belonging zoom meetings written communication rituals',
+      quote: 'In an office, culture happens to you. Remote, culture only happens on purpose.',
+      linkedin: 'Another Zoom happy hour will not fix your remote culture.\n\nIn an office, culture happens to you. Remote, culture only happens on purpose.\n\nWhere it actually lives: documentation, decision visibility, async respect.\n\nNew essay on The Leadership Compass.\n\n#RemoteWork #Culture #DistributedTeams'
+    },
+    {
+      url: 'posts/the-silence-audit.html',
+      title: 'The Silence Audit: Hearing What Your Culture Won\'t Say',
+      tag: 'Culture',
+      excerpt: 'The most important information in your organization is whatever people have collectively decided not to say.',
+      keywords: 'silence speaking up psychological safety taboo topics bad news whistleblowing candor surveys skip levels organizational listening',
+      quote: 'Silence is not the absence of information. It is information with the volume turned down by fear.',
+      linkedin: 'Every organization has topics that conversations bend around - visible in the glance exchanged, the swift subject change.\n\nSilence is not absence of information. It is information with the volume turned down by fear.\n\nHow to run a silence audit.\n\nNew essay on The Leadership Compass.\n\n#Culture #PsychologicalSafety #Leadership'
+    },
+    {
+      url: 'posts/conflict-is-a-feature.html',
+      title: 'Conflict Is a Feature: Building Teams That Argue Well',
+      tag: 'Culture',
+      excerpt: 'A team with no visible conflict has not transcended disagreement. It has just moved it somewhere you cannot moderate it.',
+      keywords: 'conflict disagreement debate task conflict relationship conflict decision making devil advocate norms productive argument teams trust',
+      quote: 'The goal is not less conflict. It is cheaper conflict - early, open, and about the work.',
+      linkedin: 'A team with no visible conflict has not transcended disagreement.\n\nIt has moved it somewhere you cannot moderate it.\n\nThe goal is not less conflict - it is cheaper conflict: early, open, about the work.\n\nNew essay on The Leadership Compass.\n\n#Teams #Conflict #Culture'
+    },
+    {
+      url: 'posts/rituals-beat-values.html',
+      title: 'Rituals Beat Values: Small Repeated Acts That Define Teams',
+      tag: 'Culture',
+      excerpt: 'Nobody remembers your values slide. Everybody remembers what your team does every single Friday.',
+      keywords: 'rituals habits team practices demo day retro gratitude celebrations cadence repetition norms traditions culture building',
+      quote: 'Culture is not what you believe. It is what you repeat.',
+      linkedin: 'Nobody remembers your values slide.\n\nEverybody remembers what your team does every single Friday.\n\nCulture is not what you believe. It is what you repeat.\n\nNew essay on The Leadership Compass.\n\n#Culture #Teams #Rituals'
+    },
+    {
+      url: 'posts/when-culture-eats-your-best-intentions.html',
+      title: 'When Culture Eats Your Best Intentions: Change That Sticks',
+      tag: 'Culture',
+      excerpt: 'Culture change fails when it asks people to behave against the systems that still reward the old behavior.',
+      keywords: 'culture change transformation initiatives incentives systems behavior change pilots middle managers reinforcement sustainability',
+      quote: 'A culture initiative that leaves incentives untouched is a request. The incentives are the instruction.',
+      linkedin: 'The workshop was inspiring. The values were relaunched. A year later, nothing moved.\n\nCulture change fails when it asks people to behave against systems that still reward the old behavior.\n\nWhat the survivors do differently.\n\nNew essay on The Leadership Compass.\n\n#CultureChange #Transformation #Leadership'
+    },
+    {
+      url: 'posts/trust-is-built-in-drops.html',
+      title: 'Trust Is Built in Drops and Lost in Buckets',
+      tag: 'Culture',
+      excerpt: 'Every team runs on a trust balance nobody can see but everybody can feel.',
+      keywords: 'trust credibility reliability promises consistency betrayal repair vulnerability speed of trust transparency relationships teams',
+      quote: 'Trust is built in drops and lost in buckets - and most leaders only check the level after the spill.',
+      linkedin: 'Every team runs on a trust balance nobody can see but everybody can feel.\n\nBuilt in drops - kept promises, credit given, truth told early.\nLost in buckets - one broken commitment, one thrown report, one spun message.\n\nNew essay on The Leadership Compass.\n\n#Trust #Leadership #Culture'
+    },
+    {
+      url: 'posts/people-analytics-without-creepiness.html',
+      title: 'People Analytics Without the Creepiness',
+      tag: 'HR Strategy',
+      excerpt: 'The test for any people metric: would you be comfortable explaining to employees exactly how it is used?',
+      keywords: 'people analytics hr data surveillance privacy metrics dashboards trust ethics monitoring productivity tracking transparency aggregation',
+      quote: 'Data employees do not trust becomes data employees learn to game.',
+      linkedin: 'The line between people analytics and surveillance is thinner than your dashboard admits.\n\nThe test for any metric: would you be comfortable explaining to employees exactly how it is used?\n\nNew essay on The Leadership Compass.\n\n#PeopleAnalytics #HR #Ethics'
+    },
+    {
+      url: 'posts/skills-based-organization-promise-vs-plumbing.html',
+      title: 'The Skills-Based Organization: Promise vs. Plumbing',
+      tag: 'HR Strategy',
+      excerpt: 'Skills-based hiring fails not at the philosophy but at the plumbing - taxonomy, verification, and trust.',
+      keywords: 'skills-based hiring skills taxonomy degrees pedigree credentials verification assessment internal mobility job architecture competencies',
+      quote: 'Removing the degree requirement is a press release. Building a skills system is a multi-year renovation.',
+      linkedin: '"We are now a skills-based organization!"\n\nTranslation, usually: we removed degree requirements from job posts.\n\nThe philosophy is right. The plumbing - taxonomy, verification, manager trust - is where it actually lives or dies.\n\nNew essay on The Leadership Compass.\n\n#SkillsBased #Hiring #HR'
+    },
+    {
+      url: 'posts/compensation-transparency-is-coming.html',
+      title: 'Compensation Transparency Is Coming. Get Ahead of It.',
+      tag: 'HR Strategy',
+      excerpt: 'Transparency does not create pay problems. It reveals the ones you have been compounding quietly.',
+      keywords: 'pay transparency compensation salary bands ranges equity audit legislation posting pay gaps fairness rewards philosophy',
+      quote: 'If publishing your pay ranges would cause a riot, the problem is not the publishing.',
+      linkedin: 'Pay secrecy is already dead - between legislation and Glassdoor, it just has not been buried.\n\nIf publishing your ranges would cause a riot, the problem is not the publishing.\n\nHow to get ahead of it.\n\nNew essay on The Leadership Compass.\n\n#PayTransparency #Compensation #HR'
+    },
+    {
+      url: 'posts/workforce-planning-unpredictable-age.html',
+      title: 'Workforce Planning in an Age You Can\'t Predict',
+      tag: 'HR Strategy',
+      excerpt: 'Stop trying to predict the workforce you will need. Build one that can become what you need.',
+      keywords: 'workforce planning headcount forecasting scenarios flexibility contingent talent pools skills adjacency buffers agility strategic',
+      quote: 'The plan is not the asset. The ability to re-plan quickly is.',
+      linkedin: 'Your five-year headcount plan is fiction. It was probably fiction in year one.\n\nThe replacement is not better forecasting - it is a workforce built to bend.\n\nNew essay on The Leadership Compass.\n\n#WorkforcePlanning #HR #Strategy'
+    },
+    {
+      url: 'posts/hrbp-from-complaint-desk-to-strategy-table.html',
+      title: 'HR Business Partners: From Complaint Desk to Strategy Table',
+      tag: 'HR Strategy',
+      excerpt: 'The seat at the table is not granted with the title. It is earned one business problem at a time.',
+      keywords: 'hr business partner hrbp strategic partner escalations operating model centers of excellence business acumen workforce insight credibility',
+      quote: 'If you only bring people problems to the business, you will only be invited to people-problem meetings.',
+      linkedin: 'The HRBP role was designed to be strategic.\n\nMost days it is consumed by escalations, admin, and being the complaint desk.\n\nWhat it actually takes to claim the seat at the table.\n\nNew essay on The Leadership Compass.\n\n#HRBP #HR #StrategicHR'
+    },
+    {
+      url: 'posts/onboarding-window-90-days.html',
+      title: 'The Onboarding Window: 90 Days That Decide Three Years',
+      tag: 'HR Strategy',
+      excerpt: 'By day 90, most new hires have privately decided how long they are staying. Onboarding is when you influence the verdict.',
+      keywords: 'onboarding new hire ramp retention first week buddy manager early experience preboarding connection productivity time to value',
+      quote: 'Nobody quits over a missing laptop. They quit over what the missing laptop told them.',
+      linkedin: 'By day 90, most new hires have privately decided how long they will stay.\n\nNobody quits over a missing laptop. They quit over what the missing laptop told them.\n\nOnboarding is a retention system disguised as paperwork week.\n\nNew essay on The Leadership Compass.\n\n#Onboarding #Retention #HR'
+    },
+    {
+      url: 'posts/policies-are-not-culture.html',
+      title: 'Policies Are Not Culture: When to Write Rules and When Not To',
+      tag: 'HR Strategy',
+      excerpt: 'A policy written for the worst 2% is experienced by the other 98% as a verdict on them.',
+      keywords: 'policies rules handbook trust judgment compliance bureaucracy guidelines principles autonomy exceptions employee relations',
+      quote: 'You cannot write enough rules to replace judgment. You can write enough to discourage it.',
+      linkedin: 'Every policy is a monument to a moment someone was not trusted.\n\nA rule written for the worst 2% is experienced by the other 98% as a verdict on them.\n\nWhen rules protect people - and when they just outsource judgment.\n\nNew essay on The Leadership Compass.\n\n#HR #Culture #Policy'
+    },
+    {
+      url: 'posts/first-90-days-listen-first.html',
+      title: 'The First 90 Days: Listen Before You Touch Anything',
+      tag: 'Leadership',
+      excerpt: 'The pressure to make an early mark ruins more leadership transitions than incompetence ever has.',
+      keywords: 'new leader transition first 90 days onboarding listening tour early wins quick wins diagnosis trust credibility new role manager',
+      quote: 'The fastest way to lose a new team is to fix things that were not broken in ways you did not understand.',
+      linkedin: 'New in a leadership role? The pressure to "make your mark" fast ruins more transitions than incompetence ever has.\n\nThe leaders who last spend their first quarter learning the system before changing it.\n\nNew essay on The Leadership Compass.\n\n#Leadership #NewManager #First90Days'
+    },
+    {
+      url: 'posts/delegation-is-not-dumping.html',
+      title: 'Delegation Is Not Dumping',
+      tag: 'Leadership',
+      excerpt: 'Most "delegation problems" are actually trust problems wearing a time-management costume.',
+      keywords: 'delegation empowerment micromanagement authority outcomes ownership trust workload accountability development managers letting go',
+      quote: 'If they must do it exactly as you would, you have not delegated. You have hired your own hands.',
+      linkedin: 'There are two ways to delegate badly:\n\n1. Dumping - task without context or authority\n2. Puppeteering - the task plus 40 check-ins\n\nReal delegation hands over the OUTCOME. Here is what that takes.\n\nNew essay on The Leadership Compass.\n\n#Leadership #Delegation #Management'
+    },
+    {
+      url: 'posts/courage-to-be-disliked.html',
+      title: 'The Courage to Be Disliked: Decisions That Cost Popularity',
+      tag: 'Leadership',
+      excerpt: 'The need to be liked is the most expensive trait a leader can have - and the most disguised.',
+      keywords: 'tough decisions unpopular leadership courage likeability conflict avoidance hard calls fairness respect trust difficult conversations',
+      quote: 'Avoiding a hard decision is also a decision. It just transfers the cost to people with less power to absorb it.',
+      linkedin: 'Every consequential decision creates losers.\n\nLeaders who need to be liked end up making the one choice that pleases nobody: avoidance.\n\nOn the difference between being liked and being trusted.\n\nNew essay on The Leadership Compass.\n\n#Leadership #DecisionMaking #Courage'
+    },
+    {
+      url: 'posts/feedback-is-a-gift-nobody-wraps-well.html',
+      title: 'Feedback Is a Gift Nobody Wraps Well',
+      tag: 'Leadership',
+      excerpt: 'Most feedback fails before it is spoken - because it was designed to protect the giver, not help the receiver.',
+      keywords: 'feedback difficult conversations sbi radical candor criticism praise specific observation behavior growth coaching managers delivery',
+      quote: 'Feedback designed to be comfortable to give is rarely useful to receive.',
+      linkedin: 'We have sandwiched, softened, and acronym-ed feedback into uselessness.\n\n"Great job overall, just a few small things..." helps nobody.\n\nWhat works: specific observation, clean delivery, genuine curiosity.\n\nNew essay on The Leadership Compass.\n\n#Feedback #Leadership #Management'
+    },
+    {
+      url: 'posts/leading-through-uncertainty.html',
+      title: 'Leading Through Uncertainty Without Faking Certainty',
+      tag: 'Leadership',
+      excerpt: 'False certainty buys a calm week and costs a year of credibility.',
+      keywords: 'uncertainty ambiguity change crisis communication transparency decisiveness confidence honesty volatility scenarios leadership trust',
+      quote: 'Confidence is not knowing the outcome. It is knowing you can handle the range of outcomes.',
+      linkedin: 'Your team does not need you to know the future.\n\nThey need you to be honest about the fog AND decisive inside it - at the same time.\n\nFalse certainty buys a calm week and costs a year of credibility.\n\nNew essay on The Leadership Compass.\n\n#Leadership #Uncertainty #Change'
+    },
+    {
+      url: 'posts/the-succession-question.html',
+      title: 'The Succession Question Every Leader Avoids',
+      tag: 'Leadership',
+      excerpt: 'Being irreplaceable is not job security. It is a ceiling you built yourself.',
+      keywords: 'succession planning bench strength bus factor development pipeline readiness deputies knowledge transfer promotion talent review continuity',
+      quote: 'If your team cannot run without you, you have not built a team. You have built a dependency.',
+      linkedin: 'A question most leaders dodge:\n\nIf you disappeared for 90 days, what would break?\n\nIf the honest answer is "a lot" - that is not job security. That is a ceiling you built yourself.\n\nNew essay on The Leadership Compass.\n\n#Succession #Leadership #TalentDevelopment'
+    },
+    {
+      url: 'posts/energy-not-time.html',
+      title: 'Energy, Not Time, Is Your Scarcest Resource',
+      tag: 'Leadership',
+      excerpt: 'You can recover lost time tomorrow. Decisions made while depleted are permanent.',
+      keywords: 'energy management burnout recovery focus deep work depletion decision fatigue rest sleep renewal performance sustainable pace leadership',
+      quote: 'A leader running on empty does not just perform worse. They decide worse - and decisions are the job.',
+      linkedin: 'Time management is the wrong obsession.\n\nTwo hours of focused energy outproduce eight hours of depletion - and decisions made while drained are permanent.\n\nManage the battery, not just the clock.\n\nNew essay on The Leadership Compass.\n\n#Leadership #EnergyManagement #Burnout'
+    },
+    {
       url: 'posts/your-calendar-is-your-strategy.html',
       title: 'Your Calendar Is Your Real Strategy',
       tag: 'Leadership',
