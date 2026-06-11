@@ -1864,3 +1864,50 @@ h1, h2, h3 {
   background: var(--color-accent-light);
   color: var(--color-accent-hover);
 }
+
+/* ── ARTICLE IMAGES ── */
+/* Usage in a post:
+   <figure class="post-figure">
+     <img src="../images/posts/my-photo.jpg" alt="What the image shows" loading="lazy" width="1200" height="675">
+     <figcaption>Optional caption, credit, or source.</figcaption>
+   </figure> */
+.post-figure {
+  margin: 32px 0;
+}
+
+.post-figure img {
+  width: 100%;
+  border-radius: 12px;
+  margin: 0;
+}
+
+.post-figure figcaption {
+  margin-top: 10px;
+  font-size: 0.8125rem;
+  color: var(--color-muted);
+  text-align: center;
+}
+
+/* Wide variant: breaks out of the 720px text column for impact */
+.post-figure.wide {
+  width: min(900px, calc(100vw - 48px));
+  margin-left: 50%;
+  transform: translateX(-50%);
+}
+
+/* Two images side by side (stacks on mobile) */
+.post-figure.pair {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 16px;
+}
+
+.post-figure.pair figcaption {
+  grid-column: 1 / -1;
+}
+
+@media (max-width: 640px) {
+  .post-figure.pair {
+    grid-template-columns: 1fr;
+  }
+}
