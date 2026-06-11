@@ -38,6 +38,60 @@
       keywords: 'psychological safety culture teams trust conflict debate feedback google project aristotle accountability standards learning dissent harmony niceness',
       quote: 'Psychological safety isn’t the absence of conflict. It’s the absence of fear about what conflict will cost you.',
       linkedin: 'Somewhere along the way, "psychological safety" got translated as "be nice."\n\nThat’s almost exactly backwards.\n\nThe most psychologically safe teams argue MORE in the room, not less. Silence isn’t harmony.\n\nNew essay on The Leadership Compass.\n\n#Culture #PsychologicalSafety #Leadership'
+    },
+    {
+      url: 'posts/ai-wont-replace-managers.html',
+      title: "AI Won't Replace Managers. But Managers Who Use AI Will.",
+      tag: 'Future of Work',
+      excerpt: 'The real divide is between managers who treat AI as a capability and those who pretend it is not happening.',
+      keywords: 'ai artificial intelligence managers management automation future of work productivity meetings admin coordination tools adoption norms judgment coaching',
+      quote: "AI doesn't threaten management. It threatens the administrative cosplay that has been passing for management.",
+      linkedin: "AI isn't coming for the manager's job.\n\nIt's coming for the parts that were never really management: status reports, meeting summaries, coordination overhead.\n\nThe divide that matters isn't human vs machine - it's deniers vs amplified.\n\nNew essay on The Leadership Compass.\n\n#AI #Management #FutureOfWork"
+    },
+    {
+      url: 'posts/quiet-power-of-leaders-who-listen.html',
+      title: 'The Quiet Power of Leaders Who Listen More Than They Talk',
+      tag: 'Leadership',
+      excerpt: 'In a culture that rewards the loudest voice, the most effective leaders master strategic silence.',
+      keywords: 'listening silence meetings airtime questions speak last decision hygiene anchoring information trust one-on-ones quiet leadership influence',
+      quote: 'The loudest voice in the room rents attention. The leader who listens owns it.',
+      linkedin: "When the most senior person speaks first, the meeting is over.\n\nEverything after that is agreement-finding dressed up as discussion.\n\nWhy the best leaders go last - and how to practice it.\n\nNew essay on The Leadership Compass.\n\n#Leadership #Listening #Management"
+    },
+    {
+      url: 'posts/culture-fit-vs-culture-add.html',
+      title: 'Stop Hiring for Culture Fit. Start Hiring for Culture Add.',
+      tag: 'Talent',
+      excerpt: 'Culture fit became a bias laundromat. A framework for hiring people who add what is missing.',
+      keywords: 'hiring recruiting culture fit culture add bias diversity interviews structured behavioral questions talent acquisition team composition innovation onboarding',
+      quote: "A team that only hires people it's comfortable with is optimizing for the absence of friction. But friction is where the new ideas are.",
+      linkedin: '"Great skills, but I\'m not sure about culture fit."\n\nToo often that means: this person is not like us.\n\nFlip the question: what does this team LACK that this person brings?\n\nNew essay on The Leadership Compass.\n\n#Hiring #Talent #DEI'
+    },
+    {
+      url: 'posts/your-leadership-brand.html',
+      title: 'Your Leadership Brand Is What Happens When You Leave the Room',
+      tag: 'Leadership',
+      excerpt: 'Reputation is built in the micro-moments your team experiences every day.',
+      keywords: 'leadership brand reputation trust credit feedback micro-moments behavior consistency executive presence influence career exit interviews',
+      quote: "People don't remember your vision statement. They remember what you did when it was inconvenient.",
+      linkedin: 'Right now, two people who work for you are talking about you.\n\nWhat they\'re saying - based on Tuesday\'s meeting, not your LinkedIn headline - is your leadership brand.\n\nEverything else is marketing.\n\nNew essay on The Leadership Compass.\n\n#Leadership #PersonalBrand'
+    },
+    {
+      url: 'posts/performance-reviews-are-dead.html',
+      title: 'Performance Reviews Are Dead. Long Live Continuous Feedback.',
+      tag: 'HR Strategy',
+      excerpt: 'Annual reviews are a relic. What the companies winning the talent war replaced them with.',
+      keywords: 'performance reviews continuous feedback ratings compensation one-on-ones development conversations manager capability recency bias appraisal hr process',
+      quote: 'The annual review asks one conversation to do four jobs - evaluate, develop, justify pay, and document - and does all four badly.',
+      linkedin: 'The annual performance review: feedback about January, delivered in December.\n\nEleven months too late to act on.\n\nWhat actually replaces it (hint: not quarterly reviews).\n\nNew essay on The Leadership Compass.\n\n#PerformanceManagement #HR #Feedback'
+    },
+    {
+      url: 'posts/culture-deck-without-the-nonsense.html',
+      title: "How to Build a Culture Deck That Isn't Performative Nonsense",
+      tag: 'Culture',
+      excerpt: 'Most culture decks are aspirational fiction. How to write one that actually reflects reality.',
+      keywords: 'culture deck values trade-offs netflix candor behavior falsifiable employer brand onboarding self-selection mission statement authenticity',
+      quote: '"We value excellence" is decoration. Culture is what you choose when good things conflict.',
+      linkedin: 'Your culture deck says Integrity, Innovation, Excellence.\n\nYour employees\' group chat says otherwise.\n\nThe only test that matters: could a candidate use it to predict their worst day?\n\nNew essay on The Leadership Compass.\n\n#Culture #EmployerBrand #HR'
     }
   ];
 
