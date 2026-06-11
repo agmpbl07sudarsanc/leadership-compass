@@ -53,6 +53,28 @@
     return d.innerHTML;
   }
 
+
+  // Try the Vercel serverless API; resolve null on any failure so the
+  // caller can fall back to the client-side implementation. This keeps
+  // local preview and static hosts fully functional.
+  function tryApi(path, payload) {
+    if (!window.fetch || !window.AbortController) return Promise.resolve(null);
+    var ctl = new AbortController();
+    var timer = setTimeout(function () { ctl.abort(); }, 12000);
+    return fetch(path, {
+      method: 'POST',
+      headers: { 'content-type': 'application/json' },
+      body: JSON.stringify(payload),
+      signal: ctl.signal
+    }).then(function (r) {
+      clearTimeout(timer);
+      return r.ok ? r.json() : null;
+    }).catch(function () {
+      clearTimeout(timer);
+      return null;
+    });
+  }
+
   /* ════════════════ 1. SMART SEARCH (all pages) ════════════════ */
 
   function initSearch() {
@@ -195,18 +217,26 @@
       return bullets.slice(0, 3);
     }
 
-    bar.querySelector('[data-act="summary"]').addEventListener('click', function () {
-      if (panel.hidden) {
-        if (!panel.querySelector('li')) {
-          panel.querySelector('ul').innerHTML = buildSummary()
-            .map(function (b) { return '<li>' + esc(b) + '</li>'; }).join('');
-        }
-        panel.hidden = false;
-        this.classList.add('active');
-      } else {
+    var sumBtn = bar.querySelector('[data-act="summary"]');
+    sumBtn.addEventListener('click', function () {
+      if (!panel.hidden) {
         panel.hidden = true;
-        this.classList.remove('active');
+        sumBtn.classList.remove('active');
+        return;
       }
+      panel.hidden = false;
+      sumBtn.classList.add('active');
+      if (panel.querySelector('li')) return; // already built
+
+      var ul = panel.querySelector('ul');
+      ul.innerHTML = '<li>Summarizing…</li>';
+      tryApi('/api/summarize', {
+        title: article ? article.title : document.title,
+        article: body.innerText
+      }).then(function (data) {
+        var bullets = (data && data.bullets && data.bullets.length) ? data.bullets : buildSummary();
+        ul.innerHTML = bullets.map(function (b) { return '<li>' + esc(b) + '</li>'; }).join('');
+      });
     });
 
     /* ── 3. Text-to-speech ── */
@@ -329,11 +359,19 @@
       if (!q) return;
       log.insertAdjacentHTML('beforeend', '<div class="ai-msg user">' + esc(q) + '</div>');
       input.value = '';
-      setTimeout(function () {
-        log.insertAdjacentHTML('beforeend', '<div class="ai-msg bot">' + esc(answer(q)).replace(/\n/g, '<br>') + '</div>');
-        log.scrollTop = log.scrollHeight;
-      }, 400);
+      log.insertAdjacentHTML('beforeend', '<div class="ai-msg bot ai-msg-pending">Thinking…</div>');
       log.scrollTop = log.scrollHeight;
+      var pending = log.querySelector('.ai-msg-pending');
+      tryApi('/api/chat', {
+        title: article ? article.title : document.title,
+        article: body.innerText,
+        question: q
+      }).then(function (data) {
+        var text = (data && data.answer) ? data.answer : answer(q);
+        pending.classList.remove('ai-msg-pending');
+        pending.innerHTML = esc(text).replace(/\n/g, '<br>');
+        log.scrollTop = log.scrollHeight;
+      });
     });
   }
 

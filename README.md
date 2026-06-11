@@ -66,11 +66,19 @@ Or in the repo UI: Settings → Pages → Deploy from branch → `main` / root.
 Drag the project folder onto https://app.netlify.com/drop — done.
 Or connect the Git repo; build command: none, publish directory: `/`.
 
-### Vercel
-```bash
-npx vercel --prod
-```
-Framework preset: "Other", no build command, output directory: `/`.
+### Vercel (recommended — enables the real AI features)
+The `api/` folder contains serverless functions (`summarize.js`, `chat.js`)
+that call the Claude API. On Vercel they make Summarize and the reading
+assistant genuinely AI-powered; on static hosts the site silently falls
+back to the built-in client-side versions.
+
+1. Push this repo to GitHub.
+2. vercel.com → Add New → Project → import the repo.
+   Framework preset: "Other", no build command, output directory: `/`.
+3. Settings → Environment Variables → add `ANTHROPIC_API_KEY`
+   (create a key at console.anthropic.com). Redeploy.
+
+Or via CLI: `npx vercel --prod`, then `npx vercel env add ANTHROPIC_API_KEY`.
 
 ## Production TODOs
 
