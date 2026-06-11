@@ -337,6 +337,57 @@
     });
   }
 
+
+  /* ════════════════ 7. EDITORIAL ANIMATIONS ════════════════ */
+
+  function initAnimations() {
+    // Gate: initial hidden state only applies once this class exists,
+    // so content stays visible for no-JS readers and crawlers.
+    document.documentElement.classList.add('anim-ready');
+
+    // What gets a scroll reveal: cards and section-level blocks.
+    var targets = document.querySelectorAll(
+      '.post-card, .featured-post, .section-header, .topic-pill, ' +
+      '.service-card, .resource-card, .newsletter-inner, ' +
+      '.ai-recommend-card, .author-box, .about-photo, .about-text, .stat'
+    );
+    targets.forEach(function (t) { t.classList.add('reveal'); });
+
+    if (!('IntersectionObserver' in window)) {
+      targets.forEach(function (t) { t.classList.add('visible'); });
+    } else {
+      var io = new IntersectionObserver(function (entries) {
+        entries.forEach(function (e) {
+          if (e.isIntersecting) {
+            e.target.classList.add('visible');
+            io.unobserve(e.target); // reveal once; never re-hide while reading
+          }
+        });
+      }, { rootMargin: '0px 0px -8% 0px', threshold: 0.08 });
+      targets.forEach(function (t) { io.observe(t); });
+    }
+
+    // Reading progress bar - article pages only.
+    var body = document.querySelector('.post-body');
+    if (body) {
+      var bar = document.createElement('div');
+      bar.className = 'read-progress';
+      document.body.appendChild(bar);
+      var ticking = false;
+      function update() {
+        var rect = body.getBoundingClientRect();
+        var total = rect.height - window.innerHeight;
+        var done = Math.min(Math.max(-rect.top, 0), Math.max(total, 1));
+        bar.style.width = (total > 0 ? (done / total) * 100 : 0) + '%';
+        ticking = false;
+      }
+      window.addEventListener('scroll', function () {
+        if (!ticking) { requestAnimationFrame(update); ticking = true; }
+      }, { passive: true });
+      update();
+    }
+  }
+
   /* ── Boot ── */
   if (document.readyState === 'loading') {
     document.addEventListener('DOMContentLoaded', boot);
@@ -346,5 +397,6 @@
   function boot() {
     initSearch();
     initPostFeatures();
+    initAnimations();
   }
 })();

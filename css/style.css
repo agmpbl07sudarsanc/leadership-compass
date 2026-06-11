@@ -1706,3 +1706,88 @@ input:focus-visible {
   color: var(--color-muted);
   text-align: center;
 }
+
+/* ── ANIMATIONS (editorial: calm, fast, never blocking reading) ── */
+
+/* Hero entrance: label, headline, subtitle, form arrive in sequence */
+@keyframes rise-in {
+  from { opacity: 0; transform: translateY(16px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+
+.hero > * {
+  animation: rise-in 0.55s cubic-bezier(0.22, 1, 0.36, 1) both;
+}
+
+.hero > *:nth-child(2) { animation-delay: 0.08s; }
+.hero > *:nth-child(3) { animation-delay: 0.16s; }
+.hero > *:nth-child(4) { animation-delay: 0.24s; }
+.hero > *:nth-child(5) { animation-delay: 0.32s; }
+
+/* Post pages: header eases in so opening an article feels intentional */
+.post-header > * {
+  animation: rise-in 0.5s cubic-bezier(0.22, 1, 0.36, 1) both;
+}
+
+.post-header > *:nth-child(2) { animation-delay: 0.07s; }
+.post-header > *:nth-child(3) { animation-delay: 0.14s; }
+
+/* Scroll reveal: js/features.js adds .reveal, then .visible in view.
+   Initial state only applies when JS has run (html.anim-ready),
+   so content is never hidden if JS fails. */
+html.anim-ready .reveal {
+  opacity: 0;
+  transform: translateY(22px);
+  transition: opacity 0.55s cubic-bezier(0.22, 1, 0.36, 1),
+              transform 0.55s cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+html.anim-ready .reveal.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* Stagger siblings inside grids so cards cascade rather than pop together */
+html.anim-ready .reveal.visible:nth-child(2) { transition-delay: 0.08s; }
+html.anim-ready .reveal.visible:nth-child(3) { transition-delay: 0.16s; }
+html.anim-ready .reveal.visible:nth-child(4) { transition-delay: 0.24s; }
+
+/* Reading progress bar on posts: thin amber line under the navbar */
+.read-progress {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 3px;
+  width: 0;
+  background: var(--color-accent);
+  z-index: 150;
+}
+
+/* Micro-interactions */
+.hero-newsletter button:active,
+.navbar-cta:active,
+.topic-pill:active {
+  transform: scale(0.97);
+}
+
+.post-card-image .pattern,
+.featured-post-image .pattern {
+  transition: transform 0.6s cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+.post-card:hover .pattern,
+.featured-post:hover .pattern {
+  transform: scale(1.06);
+}
+
+/* Respect reduced motion: the global rule above already zeroes
+   durations; also drop the reveal offset so nothing shifts. */
+@media (prefers-reduced-motion: reduce) {
+  html.anim-ready .reveal {
+    opacity: 1;
+    transform: none;
+  }
+  .hero > *, .post-header > * {
+    animation: none;
+  }
+}
