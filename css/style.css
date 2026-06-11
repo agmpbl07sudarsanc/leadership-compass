@@ -1678,3 +1678,31 @@ input:focus-visible {
 .ai-chat-panel[hidden] {
   display: none;
 }
+
+/* ── VIDEO EMBEDS ── */
+/* Responsive 16:9 wrapper for YouTube/Vimeo iframes inside posts.
+   Usage: <div class="video-embed"><iframe …></iframe></div> */
+.video-embed {
+  position: relative;
+  aspect-ratio: 16 / 9;
+  margin: 32px 0;
+  border-radius: 12px;
+  overflow: hidden;
+  background: var(--color-primary);
+}
+
+.video-embed iframe,
+.video-embed video {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  border: none;
+}
+
+.video-caption {
+  margin: -20px 0 32px;
+  font-size: 0.8125rem;
+  color: var(--color-muted);
+  text-align: center;
+}
