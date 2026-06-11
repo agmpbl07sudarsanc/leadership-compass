@@ -13,6 +13,51 @@
 
   var ARTICLES = [
     {
+      url: 'posts/your-calendar-is-your-strategy.html',
+      title: 'Your Calendar Is Your Real Strategy',
+      tag: 'Leadership',
+      excerpt: 'Strategy decks describe intentions. Calendars describe reality. How to audit the only strategy your organization actually has.',
+      keywords: 'calendar time allocation priorities strategy execution one-on-ones meetings ceremony audit attention leadership week planning',
+      quote: 'Strategy is not what you announce. Strategy is what you fund with attention.',
+      linkedin: "Your strategy deck says innovation.\n\nYour calendar says operational reviews.\n\nThe calendar wins - it always does. Time is the only budget that never lies.\n\nNew essay on The Leadership Compass.\n\n#Leadership #Strategy #TimeManagement"
+    },
+    {
+      url: 'posts/exit-interviews-are-too-late.html',
+      title: 'Exit Interviews Are Too Late. Try Stay Interviews.',
+      tag: 'HR Strategy',
+      excerpt: 'By the time someone is honest in an exit interview, the insight costs you a rehire. Five questions that collect the same intelligence while you can still act.',
+      keywords: 'stay interviews exit interviews retention attrition turnover questions managers follow-up engagement flight risk talent keep people leaving',
+      quote: 'Exit data tells you why you lost someone. Stay data tells you who you\'re about to lose.',
+      linkedin: "The exit interview: we wait until someone has nothing to lose, THEN ask what we could've done better.\n\nFinally honest. Completely useless.\n\nThe 5-question stay interview gets the same intelligence while you can still act on it.\n\nNew essay on The Leadership Compass.\n\n#Retention #HR #TalentManagement"
+    },
+    {
+      url: 'posts/your-meetings-are-your-culture.html',
+      title: 'Your Meetings Are Your Culture',
+      tag: 'Culture',
+      excerpt: 'Forget the values poster. The way your meetings run is the most accurate description of your culture that exists - and the highest-leverage place to change it.',
+      keywords: 'meetings culture psychological safety speaking order decisions agenda shadow meeting norms values behavior rooms facilitation',
+      quote: 'You don\'t have a meeting problem. You have a culture that is accurately expressing itself in meetings.',
+      linkedin: "An anthropologist studying your culture wouldn't read the values page.\n\nThey'd sit in your meetings for a week.\n\nWho talks. What's safe to say. What happens after. It's all there.\n\nNew essay on The Leadership Compass.\n\n#Culture #Meetings #Leadership"
+    },
+    {
+      url: 'posts/five-generations-one-workplace.html',
+      title: 'Five Generations, One Workplace',
+      tag: 'Future of Work',
+      excerpt: 'The widest age range any workforce has ever contained - and most of what we believe about generational differences is wrong. What actually differs matters more.',
+      keywords: 'generations gen z millennials boomers age diversity life stage career lattice knowledge transfer retirement communication norms workforce demographics',
+      quote: 'Generational labels are horoscopes for HR - specific enough to feel insightful, vague enough to apply to everyone.',
+      linkedin: "Five generations now share the workforce. A first in history.\n\nAnd the research is clear: within-generation differences DWARF between-generation ones.\n\nWhat actually differs - life stage, career horizon, knowledge transfer - matters far more.\n\nNew essay on The Leadership Compass.\n\n#FutureOfWork #Workforce #HR"
+    },
+    {
+      url: 'posts/your-best-people-leave-quietly.html',
+      title: 'Your Best People Leave Quietly. Your Worst Stay Loudly.',
+      tag: 'Talent',
+      excerpt: 'Top performers rarely complain on the way out - they just leave. Why retention systems miss the people who matter most, and the quiet signals to watch.',
+      keywords: 'retention attrition top performers high performers quiet quitting resignation signals flight risk counteroffers complainers discretionary effort talent',
+      quote: 'High performers don\'t escalate. They conclude.',
+      linkedin: "The people who complain the most almost never leave.\n\nThe people who leave almost never complained.\n\nYour best engineer resigns on a quiet Tuesday - and everyone's shocked. They shouldn't be.\n\nNew essay on The Leadership Compass.\n\n#Retention #Talent #Leadership"
+    },
+    {
       url: 'posts/strong-legs-or-easier-road.html',
       title: 'Strong Legs or an Easier Road: What HR Should Really Build',
       tag: 'Leadership',
