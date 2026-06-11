@@ -52,6 +52,11 @@ Everything is injected by one script, so pages only need the script tag:
 4. Register it in the `ARTICLES` array at the top of `js/features.js`
    (url, title, tag, excerpt, keywords, quote, LinkedIn text) so search,
    recommendations, and share snippets pick it up.
+5. Commit and push - Vercel deploys automatically in ~30s.
+6. Notify subscribers: Mailchimp -> Create -> Email (Regular) ->
+   subject = post title, body = 2-3 line teaser + link to the post ->
+   send to the audience. (~5 minutes; RSS automation is not available
+   on this Mailchimp plan, so sends are manual by design.)
 
 ## Deployment
 
@@ -85,9 +90,8 @@ Or via CLI: `npx vercel --prod`, then `npx vercel env add ANTHROPIC_API_KEY`.
 
 ## Production TODOs
 
-- **Newsletter**: forms currently show a confirmation message only. Point
-  them at a real provider (Buttondown, ConvertKit, Mailchimp) by setting the
-  form `action`, or replace the handler in `js/main.js`.
+- **Newsletter**: DONE - forms submit to the Mailchimp audience
+  (config at the top of the newsletter block in `js/main.js`).
 - **Social links**: LinkedIn / Twitter links in the footer are `#`
   placeholders.
 - **Analytics**: add your snippet (Plausible/Fathom/GA) before `</head>`
