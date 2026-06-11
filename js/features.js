@@ -13,6 +13,132 @@
 
   var ARTICLES = [
     {
+      url: 'posts/job-descriptions-are-lying.html',
+      title: 'Job Descriptions Are Lying to Your Candidates',
+      tag: 'Talent',
+      excerpt: 'Your job post is the first promise you make to a future employee. Most companies break it in the first paragraph.',
+      keywords: 'job descriptions postings requirements wish list candidates honesty realistic preview hiring recruiting employer brand self selection',
+      quote: 'A job description should be a preview, not a pitch. Previews that lie produce refunds.',
+      linkedin: 'Ten years experience in a five-year-old technology. "Fast-paced environment" meaning understaffed. A wish list no human matches.\nYour job post is the first promise you make to a future employee - and most companies break it in paragraph one.\nNew essay on The Leadership Compass.\n#Hiring #JobDescriptions #Recruiting'
+    },
+    {
+      url: 'posts/interview-is-a-sample.html',
+      title: 'The Interview Is a Sample, Not a Ceremony',
+      tag: 'Talent',
+      excerpt: 'Most interviews measure how good someone is at interviews. The job, unfortunately, is something else.',
+      keywords: 'interviews structured behavioral work samples assessment hiring bias chemistry gut feel scorecards questions panels prediction',
+      quote: 'Gut feel is pattern matching on the patterns you already prefer.',
+      linkedin: 'Most interviews measure how good someone is at interviews.\nThe job, unfortunately, is something else.\nGut feel is pattern matching on the patterns you already prefer. What to do instead.\nNew essay on The Leadership Compass.\n#Interviewing #Hiring #Talent'
+    },
+    {
+      url: 'posts/your-best-hire-already-works-for-you.html',
+      title: 'Internal Mobility: Your Best Hire Already Works for You',
+      tag: 'Talent',
+      excerpt: 'Companies pay premiums for external mystery while proven internal candidates read the posting and conclude it is not really open.',
+      keywords: 'internal mobility promotion hiring from within external hires premium career paths transfers postings hoarding succession development retention',
+      quote: 'Every senior role filled externally tells your best people the way up is out.',
+      linkedin: 'External hires: paid more, slower to ramp, more likely to fail - the research is consistent.\nYet most processes favor the stranger over the proven insider.\nEvery senior role filled externally tells your best people: the way up is out.\nNew essay on The Leadership Compass.\n#InternalMobility #Hiring #Talent'
+    },
+    {
+      url: 'posts/references-reimagined.html',
+      title: 'References, Reimagined: Questions That Actually Predict',
+      tag: 'Talent',
+      excerpt: 'Nobody gives a referee who will sink them. The information is not in whether the review is positive - it is in the texture.',
+      keywords: 'reference checks calls questions backchannel hiring verification signal calibration weaknesses growth manager conversations',
+      quote: 'References do not answer "is this person good?" They answer "what does it take to manage this person well?"',
+      linkedin: 'The standard reference call: "Would you rehire them?" "Absolutely." Five pleasant minutes, zero information.\nAsked differently, references become the highest-signal hour in your hiring process.\nThe questions that work.\nNew essay on The Leadership Compass.\n#Hiring #ReferenceChecks #Talent'
+    },
+    {
+      url: 'posts/the-counteroffer-trap.html',
+      title: 'The Counteroffer Trap',
+      tag: 'Talent',
+      excerpt: 'A counteroffer pays resignation-day prices for loyalty you could have bought cheaper all year.',
+      keywords: 'counteroffer resignation retention salary raise leaving notice negotiation flight risk compensation loyalty market adjustment',
+      quote: 'The counteroffer answers the money. The resignation was rarely about the money.',
+      linkedin: 'Star resigns. Panic. Counteroffer: 20% raise, promises, love-bombing.\nMost are gone within a year anyway - because the counteroffer answers the money, and the resignation was rarely about the money.\nNew essay on The Leadership Compass.\n#Retention #Counteroffers #Talent'
+    },
+    {
+      url: 'posts/hiring-slow-isnt-a-virtue.html',
+      title: 'Hiring Slow Isn\'t a Virtue: Speed With Discipline',
+      tag: 'Talent',
+      excerpt: 'Your six-week process is not more rigorous than a two-week one. It is the same three hours of evaluation, spread across more calendar.',
+      keywords: 'hiring speed time to hire process velocity candidate experience scheduling debriefs offers ghosting pipeline drop off rigor',
+      quote: 'Slowness is not diligence. Slowness is mostly queueing.',
+      linkedin: '"Hire slow, fire fast" confused thoroughness with duration.\nYour six-week process is the same three hours of evaluation spread across more calendar - and the best candidates are gone by week three.\nNew essay on The Leadership Compass.\n#Hiring #Recruiting #TalentAcquisition'
+    },
+    {
+      url: 'posts/potential-over-polish.html',
+      title: 'Potential Over Polish: Spotting High-Ceiling Candidates',
+      tag: 'Talent',
+      excerpt: 'Polish tells you where someone has been. Potential tells you where they are going. Interviews systematically overprice the first.',
+      keywords: 'potential high ceiling candidates polish privilege learning agility growth trajectory raw talent nontraditional backgrounds hiring signals coachability',
+      quote: 'Hire for the slope, not the intercept.',
+      linkedin: 'Polish is what privilege and practice look like in an interview.\nPotential is what compounds after you hire.\nHire for the slope, not the intercept - and learn to tell the two apart.\nNew essay on The Leadership Compass.\n#Hiring #Potential #Talent'
+    },
+    {
+      url: 'posts/four-day-week-what-trials-show.html',
+      title: 'The Four-Day Week: What the Trials Actually Show',
+      tag: 'Future of Work',
+      excerpt: 'The four-day week works - in the organizations that did the redesign work the headline skips.',
+      keywords: 'four day week 4 day compressed hours productivity pilots trials wellbeing meetings redesign output focus work time reduction',
+      quote: 'The four-day week is not a schedule change. It is a forced audit of where the fifth day was actually going.',
+      linkedin: 'The four-day week trials keep "succeeding" - but read past the headline.\nThe orgs that thrived did brutal redesign work first: meetings cut, processes streamlined, focus protected.\nThe schedule change was the reward, not the intervention.\nNew essay on The Leadership Compass.\n#FourDayWeek #FutureOfWork #Productivity'
+    },
+    {
+      url: 'posts/hybrid-is-hard-mode.html',
+      title: 'Hybrid Is Hard Mode: Why Half-Remote Beats You Up',
+      tag: 'Future of Work',
+      excerpt: 'Hybrid is not the easy middle. It is both operating systems running at once, with all the conflicts that implies.',
+      keywords: 'hybrid work remote office anchor days proximity bias meetings mixed rooms coordination flexibility policy design distributed',
+      quote: 'Hybrid done by default combines the constraints of the office with the distances of remote - and the benefits of neither.',
+      linkedin: 'Fully remote has playbooks. Fully in-office has tradition.\nHybrid - the compromise everyone chose - is secretly the hardest of the three to run well.\nDone by default, it combines the constraints of the office with the distances of remote.\nNew essay on The Leadership Compass.\n#HybridWork #FutureOfWork #RemoteWork'
+    },
+    {
+      url: 'posts/skills-have-half-lives.html',
+      title: 'Skills Have Half-Lives Now: Learning as Infrastructure',
+      tag: 'Future of Work',
+      excerpt: 'When skills decay faster than careers, the learning system is the career system.',
+      keywords: 'reskilling upskilling learning development skill decay half-life continuous learning lms training budget growth time to learn',
+      quote: 'Organizations say people are their greatest asset, then treat the maintenance of that asset as a discretionary line item.',
+      linkedin: 'Technical skills now decay in a few years. Careers last forty.\nThat math makes learning infrastructure, not a perk - yet most orgs treat it as a discretionary budget line and a compliance LMS.\nWhat learning-as-plumbing actually looks like.\nNew essay on The Leadership Compass.\n#Learning #Reskilling #FutureOfWork'
+    },
+    {
+      url: 'posts/the-gig-inside.html',
+      title: 'The Gig Inside: Internal Talent Marketplaces',
+      tag: 'Future of Work',
+      excerpt: 'Your organization is full of people who would love different work and managers who cannot see them. The marketplace is the introduction.',
+      keywords: 'internal talent marketplace gigs projects mobility skills matching hoarding managers capacity development side projects staffing',
+      quote: 'Talent hoarding is rational for every individual manager and ruinous for the organization that allows it.',
+      linkedin: 'Your org is full of people who want different work and managers who cannot see them.\nInternal talent marketplaces promise the introduction - but the tech is the easy part.\nTalent hoarding is rational for every manager and ruinous for the org that allows it.\nNew essay on The Leadership Compass.\n#TalentMarketplace #InternalMobility #FutureOfWork'
+    },
+    {
+      url: 'posts/automation-anxiety.html',
+      title: 'Automation Anxiety: Leading People Who Fear the Roadmap',
+      tag: 'Future of Work',
+      excerpt: 'People can handle hard futures. What they cannot handle is suspecting their leaders know the future and are not saying.',
+      keywords: 'automation ai anxiety job security change communication redeployment reskilling honesty roadmap fear transformation trust',
+      quote: 'Uncertainty plus silence equals the worst story people can imagine - told by them, about you.',
+      linkedin: 'Your roadmap says "efficiency." Your people hear "replacement."\nUncertainty plus silence equals the worst story people can imagine - told by them, about you.\nHow to lead automation honestly.\nNew essay on The Leadership Compass.\n#Automation #AI #ChangeLeadership'
+    },
+    {
+      url: 'posts/office-is-a-tool.html',
+      title: 'The Office Is a Tool, Not a Default',
+      tag: 'Future of Work',
+      excerpt: 'Treat the office as a tool with specific jobs and it earns its keep. Treat it as a default and it becomes expensive theater.',
+      keywords: 'office space real estate rto return to office collaboration design presence proxy work purpose anchor days facilities',
+      quote: 'If the office cannot answer "what is this for?", attendance mandates are just rent justification.',
+      linkedin: 'The question was never office vs remote.\nIt is: what is an office FOR, now that presence is no longer the proxy for work?\nIf the office cannot answer that, attendance mandates are just rent justification.\nNew essay on The Leadership Compass.\n#Office #RTO #FutureOfWork'
+    },
+    {
+      url: 'posts/always-on-boundaries.html',
+      title: 'Boundaries in an Always-On Workplace',
+      tag: 'Future of Work',
+      excerpt: 'Availability creep is not a personal discipline problem. It is a system design problem wearing one.',
+      keywords: 'boundaries always on availability right to disconnect burnout notifications after hours email norms recovery urgency leadership modeling',
+      quote: 'Whatever leaders do after 7pm becomes policy, no matter what the policy says.',
+      linkedin: 'The tech that freed work from the office also freed it from the evening, the weekend, the holiday.\nAvailability creep is not a personal discipline problem. It is a system design problem wearing one.\nAnd whatever leaders do after 7pm becomes policy.\nNew essay on The Leadership Compass.\n#Boundaries #Burnout #FutureOfWork'
+    },
+    {
       url: 'posts/recognition-is-a-system.html',
       title: 'Recognition Is a System, Not a Mood',
       tag: 'Culture',

@@ -139,7 +139,7 @@ def publish(posts):
 '''
         # --- ARTICLES entry ---
         def j(x):
-            return x.replace('\\', '\\\\').replace("'", "\\'")
+            return x.replace('\\', '\\\\').replace("'", "\\'").replace('\n', '\\n')
         entries += f'''    {{
       url: 'posts/{slug}.html',
       title: '{j(p['title'])}',
