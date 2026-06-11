@@ -388,6 +388,25 @@
     }
   }
 
+
+  /* ════════════════ 8. BACK TO TOP ════════════════ */
+
+  function initBackTop() {
+    var btn = document.createElement('button');
+    btn.className = 'back-top';
+    btn.setAttribute('aria-label', 'Back to top');
+    btn.innerHTML = '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" width="18" height="18"><polyline points="18 15 12 9 6 15"/></svg>';
+    document.body.appendChild(btn);
+    btn.addEventListener('click', function () {
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    });
+    var shown = false;
+    window.addEventListener('scroll', function () {
+      var want = window.scrollY > window.innerHeight;
+      if (want !== shown) { shown = want; btn.classList.toggle('show', want); }
+    }, { passive: true });
+  }
+
   /* ── Boot ── */
   if (document.readyState === 'loading') {
     document.addEventListener('DOMContentLoaded', boot);
@@ -398,5 +417,6 @@
     initSearch();
     initPostFeatures();
     initAnimations();
+    initBackTop();
   }
 })();

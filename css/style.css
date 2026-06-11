@@ -1791,3 +1791,76 @@ html.anim-ready .reveal.visible:nth-child(4) { transition-delay: 0.24s; }
     animation: none;
   }
 }
+
+/* ── POLISH PASS ── */
+
+/* Cross-page transitions: pages crossfade instead of flashing white.
+   Browsers without View Transitions support simply ignore this. */
+@view-transition {
+  navigation: auto;
+}
+
+/* Balanced headlines: prevents one-word orphan lines in titles */
+h1, h2, h3 {
+  text-wrap: balance;
+}
+
+/* Editorial drop cap on the opening paragraph of every article */
+.post-body > p:first-of-type::first-letter {
+  font-family: var(--font-heading);
+  font-weight: 700;
+  font-size: 3.4em;
+  line-height: 0.85;
+  float: left;
+  padding: 6px 10px 0 0;
+  color: var(--color-accent);
+}
+
+/* Compass mark gently swings on hover - small brand moment */
+.brand-icon img {
+  transition: transform 0.6s cubic-bezier(0.34, 1.56, 0.64, 1);
+}
+
+.navbar-brand:hover .brand-icon img {
+  transform: rotate(35deg);
+}
+
+/* Back-to-top: appears after a screen of scrolling */
+.back-top {
+  position: fixed;
+  left: 20px;
+  bottom: 20px;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  border: 1px solid var(--color-border);
+  background: var(--color-card);
+  color: var(--color-secondary);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+  opacity: 0;
+  pointer-events: none;
+  transform: translateY(8px);
+  transition: opacity var(--transition), transform var(--transition);
+  z-index: 200;
+}
+
+.back-top.show {
+  opacity: 1;
+  pointer-events: auto;
+  transform: translateY(0);
+}
+
+.back-top:hover {
+  color: var(--color-accent);
+  border-color: var(--color-accent);
+}
+
+/* Selection color in brand amber */
+::selection {
+  background: var(--color-accent-light);
+  color: var(--color-accent-hover);
+}
