@@ -612,7 +612,7 @@
     (header || body).insertAdjacentElement(header ? 'afterend' : 'beforebegin', bar);
 
     /* ── 2. Summarizer: extract the load-bearing sentences ── */
-    var panel = el('<div class="ai-summary" hidden><h4>TL;DR</h4><ul></ul></div>');
+    var panel = el('<div class="ai-summary" hidden><h4>Key Takeaways</h4><ul></ul></div>');
     bar.insertAdjacentElement('afterend', panel);
 
     function buildSummary() {
