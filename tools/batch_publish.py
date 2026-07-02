@@ -3,7 +3,7 @@ blog card, feed item, and ARTICLES entry. PNG rendering happens separately
 (qlmanage). Run from the repo root."""
 import re
 
-BASE = 'https://leadership-compass-tau.vercel.app'
+BASE = 'https://leadershipcompass.co.in'
 F = 'Verdana, Geneva, sans-serif'
 
 HEAD = '''<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675">

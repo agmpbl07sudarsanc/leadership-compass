@@ -2,87 +2,87 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>The Leadership Compass by Sudarshan</title>
-    <link>https://leadership-compass-tau.vercel.app/</link>
+    <link>https://leadershipcompass.co.in/</link>
     <description>Bold ideas and honest conversations about HR, leadership, and building workplaces that work for everyone.</description>
     <language>en</language>
-    <atom:link href="https://leadership-compass-tau.vercel.app/feed.xml" rel="self" type="application/rss+xml"/>
+    <atom:link href="https://leadershipcompass.co.in/feed.xml" rel="self" type="application/rss+xml"/>
 
     <item>
       <title>Strong Legs or an Easier Road: What HR Should Really Build</title>
-      <link>https://leadership-compass-tau.vercel.app/posts/strong-legs-or-easier-road.html</link>
-      <guid>https://leadership-compass-tau.vercel.app/posts/strong-legs-or-easier-road.html</guid>
+      <link>https://leadershipcompass.co.in/posts/strong-legs-or-easier-road.html</link>
+      <guid>https://leadershipcompass.co.in/posts/strong-legs-or-easier-road.html</guid>
       <pubDate>Thu, 11 Jun 2026 09:00:00 +0000</pubDate>
       <description>Every HR team faces the same choice in disguise: smooth the path for people, or build their capacity to walk hard ones. Why the best organizations choose stronger legs.</description>
     </item>
 
     <item>
       <title>Why the Best Leaders Are Unlearning Everything They Know</title>
-      <link>https://leadership-compass-tau.vercel.app/posts/why-the-best-leaders-unlearn.html</link>
-      <guid>https://leadership-compass-tau.vercel.app/posts/why-the-best-leaders-unlearn.html</guid>
+      <link>https://leadershipcompass.co.in/posts/why-the-best-leaders-unlearn.html</link>
+      <guid>https://leadershipcompass.co.in/posts/why-the-best-leaders-unlearn.html</guid>
       <pubDate>Fri, 05 Jun 2026 09:00:00 +0000</pubDate>
       <description>The leadership playbook from 2015 is broken. In a world of AI, distributed teams, and five generations in the workforce, the leaders who thrive are the ones brave enough to start over.</description>
     </item>
 
     <item>
       <title>The HR Tech Stack Is a Lie (And What to Build Instead)</title>
-      <link>https://leadership-compass-tau.vercel.app/posts/the-hr-tech-stack-is-a-lie.html</link>
-      <guid>https://leadership-compass-tau.vercel.app/posts/the-hr-tech-stack-is-a-lie.html</guid>
+      <link>https://leadershipcompass.co.in/posts/the-hr-tech-stack-is-a-lie.html</link>
+      <guid>https://leadershipcompass.co.in/posts/the-hr-tech-stack-is-a-lie.html</guid>
       <pubDate>Thu, 28 May 2026 09:00:00 +0000</pubDate>
       <description>Sixteen tools, zero integration, and a spreadsheet holding it all together. The problem is not technology - it is architecture. A three-phase roadmap for an HR stack that works.</description>
     </item>
 
     <item>
       <title>Psychological Safety Is Not About Being Nice</title>
-      <link>https://leadership-compass-tau.vercel.app/posts/psychological-safety-is-not-about-being-nice.html</link>
-      <guid>https://leadership-compass-tau.vercel.app/posts/psychological-safety-is-not-about-being-nice.html</guid>
+      <link>https://leadershipcompass.co.in/posts/psychological-safety-is-not-about-being-nice.html</link>
+      <guid>https://leadershipcompass.co.in/posts/psychological-safety-is-not-about-being-nice.html</guid>
       <pubDate>Wed, 20 May 2026 09:00:00 +0000</pubDate>
       <description>The most psychologically safe teams argue more, not less. What the research actually found, the nice-team trap, and four practices that build real safety.</description>
     </item>
 
     <item>
       <title>AI Won&apos;t Replace Managers. But Managers Who Use AI Will.</title>
-      <link>https://leadership-compass-tau.vercel.app/posts/ai-wont-replace-managers.html</link>
-      <guid>https://leadership-compass-tau.vercel.app/posts/ai-wont-replace-managers.html</guid>
+      <link>https://leadershipcompass.co.in/posts/ai-wont-replace-managers.html</link>
+      <guid>https://leadershipcompass.co.in/posts/ai-wont-replace-managers.html</guid>
       <pubDate>Tue, 12 May 2026 09:00:00 +0000</pubDate>
       <description>The real divide is between managers who treat AI as a capability and those who pretend it is not happening.</description>
     </item>
 
     <item>
       <title>The Quiet Power of Leaders Who Listen More Than They Talk</title>
-      <link>https://leadership-compass-tau.vercel.app/posts/quiet-power-of-leaders-who-listen.html</link>
-      <guid>https://leadership-compass-tau.vercel.app/posts/quiet-power-of-leaders-who-listen.html</guid>
+      <link>https://leadershipcompass.co.in/posts/quiet-power-of-leaders-who-listen.html</link>
+      <guid>https://leadershipcompass.co.in/posts/quiet-power-of-leaders-who-listen.html</guid>
       <pubDate>Tue, 05 May 2026 09:00:00 +0000</pubDate>
       <description>In a culture that rewards the loudest voice, the most effective leaders master strategic silence.</description>
     </item>
 
     <item>
       <title>Stop Hiring for Culture Fit. Start Hiring for Culture Add.</title>
-      <link>https://leadership-compass-tau.vercel.app/posts/culture-fit-vs-culture-add.html</link>
-      <guid>https://leadership-compass-tau.vercel.app/posts/culture-fit-vs-culture-add.html</guid>
+      <link>https://leadershipcompass.co.in/posts/culture-fit-vs-culture-add.html</link>
+      <guid>https://leadershipcompass.co.in/posts/culture-fit-vs-culture-add.html</guid>
       <pubDate>Tue, 28 Apr 2026 09:00:00 +0000</pubDate>
       <description>Culture fit became a bias laundromat. A practical framework for hiring people who add what is missing.</description>
     </item>
 
     <item>
       <title>Your Leadership Brand Is What Happens When You Leave the Room</title>
-      <link>https://leadership-compass-tau.vercel.app/posts/your-leadership-brand.html</link>
-      <guid>https://leadership-compass-tau.vercel.app/posts/your-leadership-brand.html</guid>
+      <link>https://leadershipcompass.co.in/posts/your-leadership-brand.html</link>
+      <guid>https://leadershipcompass.co.in/posts/your-leadership-brand.html</guid>
       <pubDate>Mon, 20 Apr 2026 09:00:00 +0000</pubDate>
       <description>Reputation is built in the micro-moments your team experiences every day.</description>
     </item>
 
     <item>
       <title>Performance Reviews Are Dead. Long Live Continuous Feedback.</title>
-      <link>https://leadership-compass-tau.vercel.app/posts/performance-reviews-are-dead.html</link>
-      <guid>https://leadership-compass-tau.vercel.app/posts/performance-reviews-are-dead.html</guid>
+      <link>https://leadershipcompass.co.in/posts/performance-reviews-are-dead.html</link>
+      <guid>https://leadershipcompass.co.in/posts/performance-reviews-are-dead.html</guid>
       <pubDate>Sun, 12 Apr 2026 09:00:00 +0000</pubDate>
       <description>Annual reviews are a relic. What the companies winning the talent war replaced them with.</description>
     </item>
 
     <item>
       <title>How to Build a Culture Deck That Isn&apos;t Performative Nonsense</title>
-      <link>https://leadership-compass-tau.vercel.app/posts/culture-deck-without-the-nonsense.html</link>
-      <guid>https://leadership-compass-tau.vercel.app/posts/culture-deck-without-the-nonsense.html</guid>
+      <link>https://leadershipcompass.co.in/posts/culture-deck-without-the-nonsense.html</link>
+      <guid>https://leadershipcompass.co.in/posts/culture-deck-without-the-nonsense.html</guid>
       <pubDate>Sun, 05 Apr 2026 09:00:00 +0000</pubDate>
       <description>Most culture decks are aspirational fiction. How to write one that actually reflects reality.</description>
     </item>
@@ -90,40 +90,40 @@
 
     <item>
       <title>Your Calendar Is Your Real Strategy</title>
-      <link>https://leadership-compass-tau.vercel.app/posts/your-calendar-is-your-strategy.html</link>
-      <guid>https://leadership-compass-tau.vercel.app/posts/your-calendar-is-your-strategy.html</guid>
+      <link>https://leadershipcompass.co.in/posts/your-calendar-is-your-strategy.html</link>
+      <guid>https://leadershipcompass.co.in/posts/your-calendar-is-your-strategy.html</guid>
       <pubDate>Tue, 24 Mar 2026 09:00:00 +0000</pubDate>
       <description>Strategy decks describe intentions. Calendars describe reality. How to audit the only strategy your organization actually has.</description>
     </item>
 
     <item>
       <title>Exit Interviews Are Too Late. Try Stay Interviews.</title>
-      <link>https://leadership-compass-tau.vercel.app/posts/exit-interviews-are-too-late.html</link>
-      <guid>https://leadership-compass-tau.vercel.app/posts/exit-interviews-are-too-late.html</guid>
+      <link>https://leadershipcompass.co.in/posts/exit-interviews-are-too-late.html</link>
+      <guid>https://leadershipcompass.co.in/posts/exit-interviews-are-too-late.html</guid>
       <pubDate>Tue, 17 Mar 2026 09:00:00 +0000</pubDate>
       <description>By the time someone is honest in an exit interview, the insight costs you a rehire. Five questions that collect the same intelligence while you can still act.</description>
     </item>
 
     <item>
       <title>Your Meetings Are Your Culture</title>
-      <link>https://leadership-compass-tau.vercel.app/posts/your-meetings-are-your-culture.html</link>
-      <guid>https://leadership-compass-tau.vercel.app/posts/your-meetings-are-your-culture.html</guid>
+      <link>https://leadershipcompass.co.in/posts/your-meetings-are-your-culture.html</link>
+      <guid>https://leadershipcompass.co.in/posts/your-meetings-are-your-culture.html</guid>
       <pubDate>Tue, 10 Mar 2026 09:00:00 +0000</pubDate>
       <description>Forget the values poster. The way your meetings run is the most accurate description of your culture that exists - and the highest-leverage place to change it.</description>
     </item>
 
     <item>
       <title>Five Generations, One Workplace</title>
-      <link>https://leadership-compass-tau.vercel.app/posts/five-generations-one-workplace.html</link>
-      <guid>https://leadership-compass-tau.vercel.app/posts/five-generations-one-workplace.html</guid>
+      <link>https://leadershipcompass.co.in/posts/five-generations-one-workplace.html</link>
+      <guid>https://leadershipcompass.co.in/posts/five-generations-one-workplace.html</guid>
       <pubDate>Tue, 03 Mar 2026 09:00:00 +0000</pubDate>
       <description>The widest age range any workforce has ever contained - and most of what we believe about generational differences is wrong. What actually differs matters more.</description>
     </item>
 
     <item>
       <title>Your Best People Leave Quietly. Your Worst Stay Loudly.</title>
-      <link>https://leadership-compass-tau.vercel.app/posts/your-best-people-leave-quietly.html</link>
-      <guid>https://leadership-compass-tau.vercel.app/posts/your-best-people-leave-quietly.html</guid>
+      <link>https://leadershipcompass.co.in/posts/your-best-people-leave-quietly.html</link>
+      <guid>https://leadershipcompass.co.in/posts/your-best-people-leave-quietly.html</guid>
       <pubDate>Tue, 24 Feb 2026 09:00:00 +0000</pubDate>
       <description>Top performers rarely complain on the way out - they just leave. Why retention systems miss the people who matter most, and the quiet signals to watch.</description>
     </item>
@@ -131,56 +131,56 @@
 
     <item>
       <title>The First 90 Days: Listen Before You Touch Anything</title>
-      <link>https://leadership-compass-tau.vercel.app/posts/first-90-days-listen-first.html</link>
-      <guid>https://leadership-compass-tau.vercel.app/posts/first-90-days-listen-first.html</guid>
+      <link>https://leadershipcompass.co.in/posts/first-90-days-listen-first.html</link>
+      <guid>https://leadershipcompass.co.in/posts/first-90-days-listen-first.html</guid>
       <pubDate>Tue, 17 Feb 2026 09:00:00 +0000</pubDate>
       <description>New leaders feel pressure to make their mark fast. The ones who last spend their first quarter learning the system before they change it.</description>
     </item>
 
     <item>
       <title>Delegation Is Not Dumping</title>
-      <link>https://leadership-compass-tau.vercel.app/posts/delegation-is-not-dumping.html</link>
-      <guid>https://leadership-compass-tau.vercel.app/posts/delegation-is-not-dumping.html</guid>
+      <link>https://leadershipcompass.co.in/posts/delegation-is-not-dumping.html</link>
+      <guid>https://leadershipcompass.co.in/posts/delegation-is-not-dumping.html</guid>
       <pubDate>Tue, 10 Feb 2026 09:00:00 +0000</pubDate>
       <description>Handing someone a task is easy. Handing them an outcome - with the authority, context, and tolerance for difference it requires - is the real skill.</description>
     </item>
 
     <item>
       <title>The Courage to Be Disliked: Decisions That Cost Popularity</title>
-      <link>https://leadership-compass-tau.vercel.app/posts/courage-to-be-disliked.html</link>
-      <guid>https://leadership-compass-tau.vercel.app/posts/courage-to-be-disliked.html</guid>
+      <link>https://leadershipcompass.co.in/posts/courage-to-be-disliked.html</link>
+      <guid>https://leadershipcompass.co.in/posts/courage-to-be-disliked.html</guid>
       <pubDate>Tue, 03 Feb 2026 09:00:00 +0000</pubDate>
       <description>Every consequential leadership decision creates losers. Leaders who need to be liked end up making the one choice that pleases no one: avoidance.</description>
     </item>
 
     <item>
       <title>Feedback Is a Gift Nobody Wraps Well</title>
-      <link>https://leadership-compass-tau.vercel.app/posts/feedback-is-a-gift-nobody-wraps-well.html</link>
-      <guid>https://leadership-compass-tau.vercel.app/posts/feedback-is-a-gift-nobody-wraps-well.html</guid>
+      <link>https://leadershipcompass.co.in/posts/feedback-is-a-gift-nobody-wraps-well.html</link>
+      <guid>https://leadershipcompass.co.in/posts/feedback-is-a-gift-nobody-wraps-well.html</guid>
       <pubDate>Tue, 27 Jan 2026 09:00:00 +0000</pubDate>
       <description>We have sandwiched, softened, and acronym-ed feedback into uselessness. What actually helps: specific observation, clean delivery, and genuine curiosity.</description>
     </item>
 
     <item>
       <title>Leading Through Uncertainty Without Faking Certainty</title>
-      <link>https://leadership-compass-tau.vercel.app/posts/leading-through-uncertainty.html</link>
-      <guid>https://leadership-compass-tau.vercel.app/posts/leading-through-uncertainty.html</guid>
+      <link>https://leadershipcompass.co.in/posts/leading-through-uncertainty.html</link>
+      <guid>https://leadershipcompass.co.in/posts/leading-through-uncertainty.html</guid>
       <pubDate>Tue, 20 Jan 2026 09:00:00 +0000</pubDate>
       <description>Teams do not need leaders who know the future. They need leaders who can be honest about the fog and decisive inside it - at the same time.</description>
     </item>
 
     <item>
       <title>The Succession Question Every Leader Avoids</title>
-      <link>https://leadership-compass-tau.vercel.app/posts/the-succession-question.html</link>
-      <guid>https://leadership-compass-tau.vercel.app/posts/the-succession-question.html</guid>
+      <link>https://leadershipcompass.co.in/posts/the-succession-question.html</link>
+      <guid>https://leadershipcompass.co.in/posts/the-succession-question.html</guid>
       <pubDate>Tue, 13 Jan 2026 09:00:00 +0000</pubDate>
       <description>If you disappeared for ninety days, what would break? Succession is not a someday project for the board - it is a weekly leadership discipline.</description>
     </item>
 
     <item>
       <title>Energy, Not Time, Is Your Scarcest Resource</title>
-      <link>https://leadership-compass-tau.vercel.app/posts/energy-not-time.html</link>
-      <guid>https://leadership-compass-tau.vercel.app/posts/energy-not-time.html</guid>
+      <link>https://leadershipcompass.co.in/posts/energy-not-time.html</link>
+      <guid>https://leadershipcompass.co.in/posts/energy-not-time.html</guid>
       <pubDate>Tue, 06 Jan 2026 09:00:00 +0000</pubDate>
       <description>Two hours of focused energy outproduce eight hours of depletion. Why leaders should manage their energy portfolio as deliberately as their calendar.</description>
     </item>
@@ -188,56 +188,56 @@
 
     <item>
       <title>People Analytics Without the Creepiness</title>
-      <link>https://leadership-compass-tau.vercel.app/posts/people-analytics-without-creepiness.html</link>
-      <guid>https://leadership-compass-tau.vercel.app/posts/people-analytics-without-creepiness.html</guid>
+      <link>https://leadershipcompass.co.in/posts/people-analytics-without-creepiness.html</link>
+      <guid>https://leadershipcompass.co.in/posts/people-analytics-without-creepiness.html</guid>
       <pubDate>Tue, 16 Dec 2025 09:00:00 +0000</pubDate>
       <description>The line between insight and surveillance is thinner than most dashboards admit. How to build a people analytics practice your employees would endorse.</description>
     </item>
 
     <item>
       <title>The Skills-Based Organization: Promise vs. Plumbing</title>
-      <link>https://leadership-compass-tau.vercel.app/posts/skills-based-organization-promise-vs-plumbing.html</link>
-      <guid>https://leadership-compass-tau.vercel.app/posts/skills-based-organization-promise-vs-plumbing.html</guid>
+      <link>https://leadershipcompass.co.in/posts/skills-based-organization-promise-vs-plumbing.html</link>
+      <guid>https://leadershipcompass.co.in/posts/skills-based-organization-promise-vs-plumbing.html</guid>
       <pubDate>Tue, 09 Dec 2025 09:00:00 +0000</pubDate>
       <description>Everyone wants to hire and deploy by skills instead of pedigree. Almost nobody has the plumbing: taxonomies, verification, and managers who trust it.</description>
     </item>
 
     <item>
       <title>Compensation Transparency Is Coming. Get Ahead of It.</title>
-      <link>https://leadership-compass-tau.vercel.app/posts/compensation-transparency-is-coming.html</link>
-      <guid>https://leadership-compass-tau.vercel.app/posts/compensation-transparency-is-coming.html</guid>
+      <link>https://leadershipcompass.co.in/posts/compensation-transparency-is-coming.html</link>
+      <guid>https://leadershipcompass.co.in/posts/compensation-transparency-is-coming.html</guid>
       <pubDate>Tue, 02 Dec 2025 09:00:00 +0000</pubDate>
       <description>Between legislation and Glassdoor, pay secrecy is already dead - it just has not been buried. The organizations that thrive will fix their pay architecture before showing it.</description>
     </item>
 
     <item>
       <title>Workforce Planning in an Age You Can&apos;t Predict</title>
-      <link>https://leadership-compass-tau.vercel.app/posts/workforce-planning-unpredictable-age.html</link>
-      <guid>https://leadership-compass-tau.vercel.app/posts/workforce-planning-unpredictable-age.html</guid>
+      <link>https://leadershipcompass.co.in/posts/workforce-planning-unpredictable-age.html</link>
+      <guid>https://leadershipcompass.co.in/posts/workforce-planning-unpredictable-age.html</guid>
       <pubDate>Tue, 25 Nov 2025 09:00:00 +0000</pubDate>
       <description>Five-year headcount plans are fiction now. The replacement is not better forecasting - it is building a workforce that can bend without breaking.</description>
     </item>
 
     <item>
       <title>HR Business Partners: From Complaint Desk to Strategy Table</title>
-      <link>https://leadership-compass-tau.vercel.app/posts/hrbp-from-complaint-desk-to-strategy-table.html</link>
-      <guid>https://leadership-compass-tau.vercel.app/posts/hrbp-from-complaint-desk-to-strategy-table.html</guid>
+      <link>https://leadershipcompass.co.in/posts/hrbp-from-complaint-desk-to-strategy-table.html</link>
+      <guid>https://leadershipcompass.co.in/posts/hrbp-from-complaint-desk-to-strategy-table.html</guid>
       <pubDate>Tue, 18 Nov 2025 09:00:00 +0000</pubDate>
       <description>The HRBP role was designed to be strategic and is mostly consumed by escalations and admin. What it takes - from the partner and the function - to claim the seat.</description>
     </item>
 
     <item>
       <title>The Onboarding Window: 90 Days That Decide Three Years</title>
-      <link>https://leadership-compass-tau.vercel.app/posts/onboarding-window-90-days.html</link>
-      <guid>https://leadership-compass-tau.vercel.app/posts/onboarding-window-90-days.html</guid>
+      <link>https://leadershipcompass.co.in/posts/onboarding-window-90-days.html</link>
+      <guid>https://leadershipcompass.co.in/posts/onboarding-window-90-days.html</guid>
       <pubDate>Tue, 11 Nov 2025 09:00:00 +0000</pubDate>
       <description>New hires decide early whether they made a mistake - and the decision sticks. Why onboarding is a retention system disguised as paperwork week.</description>
     </item>
 
     <item>
       <title>Policies Are Not Culture: When to Write Rules and When Not To</title>
-      <link>https://leadership-compass-tau.vercel.app/posts/policies-are-not-culture.html</link>
-      <guid>https://leadership-compass-tau.vercel.app/posts/policies-are-not-culture.html</guid>
+      <link>https://leadershipcompass.co.in/posts/policies-are-not-culture.html</link>
+      <guid>https://leadershipcompass.co.in/posts/policies-are-not-culture.html</guid>
       <pubDate>Tue, 04 Nov 2025 09:00:00 +0000</pubDate>
       <description>Every policy is a monument to a moment someone was not trusted. When rules genuinely protect people - and when they just outsource judgment.</description>
     </item>
@@ -245,56 +245,56 @@
 
     <item>
       <title>Recognition Is a System, Not a Mood</title>
-      <link>https://leadership-compass-tau.vercel.app/posts/recognition-is-a-system.html</link>
-      <guid>https://leadership-compass-tau.vercel.app/posts/recognition-is-a-system.html</guid>
+      <link>https://leadershipcompass.co.in/posts/recognition-is-a-system.html</link>
+      <guid>https://leadershipcompass.co.in/posts/recognition-is-a-system.html</guid>
       <pubDate>Tue, 28 Oct 2025 09:00:00 +0000</pubDate>
       <description>Left to mood and memory, recognition flows to the visible and the recent. How to build appreciation into the operating rhythm so nobody great goes unseen.</description>
     </item>
 
     <item>
       <title>Remote Culture Isn&apos;t Built on Zoom Happy Hours</title>
-      <link>https://leadership-compass-tau.vercel.app/posts/remote-culture-isnt-built-on-zoom-happy-hours.html</link>
-      <guid>https://leadership-compass-tau.vercel.app/posts/remote-culture-isnt-built-on-zoom-happy-hours.html</guid>
+      <link>https://leadershipcompass.co.in/posts/remote-culture-isnt-built-on-zoom-happy-hours.html</link>
+      <guid>https://leadershipcompass.co.in/posts/remote-culture-isnt-built-on-zoom-happy-hours.html</guid>
       <pubDate>Tue, 21 Oct 2025 09:00:00 +0000</pubDate>
       <description>Forced fun is not culture. Remote culture lives in how work actually flows: documentation, decision visibility, async respect, and deliberate moments of realness.</description>
     </item>
 
     <item>
       <title>The Silence Audit: Hearing What Your Culture Won&apos;t Say</title>
-      <link>https://leadership-compass-tau.vercel.app/posts/the-silence-audit.html</link>
-      <guid>https://leadership-compass-tau.vercel.app/posts/the-silence-audit.html</guid>
+      <link>https://leadershipcompass.co.in/posts/the-silence-audit.html</link>
+      <guid>https://leadershipcompass.co.in/posts/the-silence-audit.html</guid>
       <pubDate>Tue, 14 Oct 2025 09:00:00 +0000</pubDate>
       <description>Every culture has topics that conversations bend around. Learning to detect the silences - and what it costs you not to.</description>
     </item>
 
     <item>
       <title>Conflict Is a Feature: Building Teams That Argue Well</title>
-      <link>https://leadership-compass-tau.vercel.app/posts/conflict-is-a-feature.html</link>
-      <guid>https://leadership-compass-tau.vercel.app/posts/conflict-is-a-feature.html</guid>
+      <link>https://leadershipcompass.co.in/posts/conflict-is-a-feature.html</link>
+      <guid>https://leadershipcompass.co.in/posts/conflict-is-a-feature.html</guid>
       <pubDate>Tue, 07 Oct 2025 09:00:00 +0000</pubDate>
       <description>Teams that never fight are not healthy - they are quiet. The skill is not eliminating conflict but building the container that makes it productive.</description>
     </item>
 
     <item>
       <title>Rituals Beat Values: Small Repeated Acts That Define Teams</title>
-      <link>https://leadership-compass-tau.vercel.app/posts/rituals-beat-values.html</link>
-      <guid>https://leadership-compass-tau.vercel.app/posts/rituals-beat-values.html</guid>
+      <link>https://leadershipcompass.co.in/posts/rituals-beat-values.html</link>
+      <guid>https://leadershipcompass.co.in/posts/rituals-beat-values.html</guid>
       <pubDate>Tue, 30 Sep 2025 09:00:00 +0000</pubDate>
       <description>Values describe intentions. Rituals install behavior. Why the smallest repeated practices - demo days, gratitude rounds, failure shares - out-build any poster.</description>
     </item>
 
     <item>
       <title>When Culture Eats Your Best Intentions: Change That Sticks</title>
-      <link>https://leadership-compass-tau.vercel.app/posts/when-culture-eats-your-best-intentions.html</link>
-      <guid>https://leadership-compass-tau.vercel.app/posts/when-culture-eats-your-best-intentions.html</guid>
+      <link>https://leadershipcompass.co.in/posts/when-culture-eats-your-best-intentions.html</link>
+      <guid>https://leadershipcompass.co.in/posts/when-culture-eats-your-best-intentions.html</guid>
       <pubDate>Tue, 23 Sep 2025 09:00:00 +0000</pubDate>
       <description>Most culture change initiatives die quietly within a year - eaten by the incentives, habits, and power structures they ignored. What the survivors do differently.</description>
     </item>
 
     <item>
       <title>Trust Is Built in Drops and Lost in Buckets</title>
-      <link>https://leadership-compass-tau.vercel.app/posts/trust-is-built-in-drops.html</link>
-      <guid>https://leadership-compass-tau.vercel.app/posts/trust-is-built-in-drops.html</guid>
+      <link>https://leadershipcompass.co.in/posts/trust-is-built-in-drops.html</link>
+      <guid>https://leadershipcompass.co.in/posts/trust-is-built-in-drops.html</guid>
       <pubDate>Tue, 16 Sep 2025 09:00:00 +0000</pubDate>
       <description>Trust is the operating capital of every team - accumulated slowly through kept promises, spent suddenly through one bad moment. The maintenance schedule matters.</description>
     </item>
@@ -302,56 +302,56 @@
 
     <item>
       <title>The Four-Day Week: What the Trials Actually Show</title>
-      <link>https://leadership-compass-tau.vercel.app/posts/four-day-week-what-trials-show.html</link>
-      <guid>https://leadership-compass-tau.vercel.app/posts/four-day-week-what-trials-show.html</guid>
+      <link>https://leadershipcompass.co.in/posts/four-day-week-what-trials-show.html</link>
+      <guid>https://leadershipcompass.co.in/posts/four-day-week-what-trials-show.html</guid>
       <pubDate>Tue, 09 Sep 2025 09:00:00 +0000</pubDate>
       <description>Beyond the headlines: what four-day week pilots consistently find, what they quietly gloss over, and how to know if your organization is a candidate.</description>
     </item>
 
     <item>
       <title>Hybrid Is Hard Mode: Why Half-Remote Beats You Up</title>
-      <link>https://leadership-compass-tau.vercel.app/posts/hybrid-is-hard-mode.html</link>
-      <guid>https://leadership-compass-tau.vercel.app/posts/hybrid-is-hard-mode.html</guid>
+      <link>https://leadershipcompass.co.in/posts/hybrid-is-hard-mode.html</link>
+      <guid>https://leadershipcompass.co.in/posts/hybrid-is-hard-mode.html</guid>
       <pubDate>Tue, 02 Sep 2025 09:00:00 +0000</pubDate>
       <description>Fully remote has playbooks. Fully in-office has tradition. Hybrid - the compromise everyone chose - quietly demands more design than either extreme.</description>
     </item>
 
     <item>
       <title>Skills Have Half-Lives Now: Learning as Infrastructure</title>
-      <link>https://leadership-compass-tau.vercel.app/posts/skills-have-half-lives.html</link>
-      <guid>https://leadership-compass-tau.vercel.app/posts/skills-have-half-lives.html</guid>
+      <link>https://leadershipcompass.co.in/posts/skills-have-half-lives.html</link>
+      <guid>https://leadershipcompass.co.in/posts/skills-have-half-lives.html</guid>
       <pubDate>Tue, 26 Aug 2025 09:00:00 +0000</pubDate>
       <description>When technical skills decay in a few years, learning cannot be an annual training budget. It has to be plumbing: time, proximity to work, and proof it counts.</description>
     </item>
 
     <item>
       <title>The Gig Inside: Internal Talent Marketplaces</title>
-      <link>https://leadership-compass-tau.vercel.app/posts/the-gig-inside.html</link>
-      <guid>https://leadership-compass-tau.vercel.app/posts/the-gig-inside.html</guid>
+      <link>https://leadershipcompass.co.in/posts/the-gig-inside.html</link>
+      <guid>https://leadershipcompass.co.in/posts/the-gig-inside.html</guid>
       <pubDate>Tue, 19 Aug 2025 09:00:00 +0000</pubDate>
       <description>Project-based internal gigs promise fluid talent and faster development. The technology is the easy part - the hoarding managers are not.</description>
     </item>
 
     <item>
       <title>Automation Anxiety: Leading People Who Fear the Roadmap</title>
-      <link>https://leadership-compass-tau.vercel.app/posts/automation-anxiety.html</link>
-      <guid>https://leadership-compass-tau.vercel.app/posts/automation-anxiety.html</guid>
+      <link>https://leadershipcompass.co.in/posts/automation-anxiety.html</link>
+      <guid>https://leadershipcompass.co.in/posts/automation-anxiety.html</guid>
       <pubDate>Tue, 12 Aug 2025 09:00:00 +0000</pubDate>
       <description>Your roadmap says efficiency. Your people hear replacement. How to lead automation honestly - without false promises or corrosive silence.</description>
     </item>
 
     <item>
       <title>The Office Is a Tool, Not a Default</title>
-      <link>https://leadership-compass-tau.vercel.app/posts/office-is-a-tool.html</link>
-      <guid>https://leadership-compass-tau.vercel.app/posts/office-is-a-tool.html</guid>
+      <link>https://leadershipcompass.co.in/posts/office-is-a-tool.html</link>
+      <guid>https://leadershipcompass.co.in/posts/office-is-a-tool.html</guid>
       <pubDate>Tue, 05 Aug 2025 09:00:00 +0000</pubDate>
       <description>The question was never office versus remote. It is: what is an office for, when presence is no longer the proxy for work?</description>
     </item>
 
     <item>
       <title>Boundaries in an Always-On Workplace</title>
-      <link>https://leadership-compass-tau.vercel.app/posts/always-on-boundaries.html</link>
-      <guid>https://leadership-compass-tau.vercel.app/posts/always-on-boundaries.html</guid>
+      <link>https://leadershipcompass.co.in/posts/always-on-boundaries.html</link>
+      <guid>https://leadershipcompass.co.in/posts/always-on-boundaries.html</guid>
       <pubDate>Tue, 29 Jul 2025 09:00:00 +0000</pubDate>
       <description>The technology that freed work from the office also freed it from the evening, the weekend, and the holiday. Boundaries are now infrastructure leaders must build.</description>
     </item>
@@ -359,56 +359,56 @@
 
     <item>
       <title>Job Descriptions Are Lying to Your Candidates</title>
-      <link>https://leadership-compass-tau.vercel.app/posts/job-descriptions-are-lying.html</link>
-      <guid>https://leadership-compass-tau.vercel.app/posts/job-descriptions-are-lying.html</guid>
+      <link>https://leadershipcompass.co.in/posts/job-descriptions-are-lying.html</link>
+      <guid>https://leadershipcompass.co.in/posts/job-descriptions-are-lying.html</guid>
       <pubDate>Tue, 22 Jul 2025 09:00:00 +0000</pubDate>
       <description>Wish-list requirements, vague responsibilities, and a tone nobody speaks - the standard job description repels the people it should attract. Write the honest version.</description>
     </item>
 
     <item>
       <title>The Interview Is a Sample, Not a Ceremony</title>
-      <link>https://leadership-compass-tau.vercel.app/posts/interview-is-a-sample.html</link>
-      <guid>https://leadership-compass-tau.vercel.app/posts/interview-is-a-sample.html</guid>
+      <link>https://leadershipcompass.co.in/posts/interview-is-a-sample.html</link>
+      <guid>https://leadershipcompass.co.in/posts/interview-is-a-sample.html</guid>
       <pubDate>Tue, 15 Jul 2025 09:00:00 +0000</pubDate>
       <description>Unstructured interviews mostly measure confidence and chemistry. The fix is treating every hour as a work sample - structured, job-shaped, and scored before the debrief.</description>
     </item>
 
     <item>
       <title>Internal Mobility: Your Best Hire Already Works for You</title>
-      <link>https://leadership-compass-tau.vercel.app/posts/your-best-hire-already-works-for-you.html</link>
-      <guid>https://leadership-compass-tau.vercel.app/posts/your-best-hire-already-works-for-you.html</guid>
+      <link>https://leadershipcompass.co.in/posts/your-best-hire-already-works-for-you.html</link>
+      <guid>https://leadershipcompass.co.in/posts/your-best-hire-already-works-for-you.html</guid>
       <pubDate>Tue, 08 Jul 2025 09:00:00 +0000</pubDate>
       <description>Proven, cultured, and pre-vetted - internal candidates outperform external hires on most measures. So why does your process favor strangers?</description>
     </item>
 
     <item>
       <title>References, Reimagined: Questions That Actually Predict</title>
-      <link>https://leadership-compass-tau.vercel.app/posts/references-reimagined.html</link>
-      <guid>https://leadership-compass-tau.vercel.app/posts/references-reimagined.html</guid>
+      <link>https://leadershipcompass.co.in/posts/references-reimagined.html</link>
+      <guid>https://leadershipcompass.co.in/posts/references-reimagined.html</guid>
       <pubDate>Tue, 01 Jul 2025 09:00:00 +0000</pubDate>
       <description>The standard reference call is a pleasant formality with near-zero information. Asked differently, references become the highest-signal hour in your process.</description>
     </item>
 
     <item>
       <title>The Counteroffer Trap</title>
-      <link>https://leadership-compass-tau.vercel.app/posts/the-counteroffer-trap.html</link>
-      <guid>https://leadership-compass-tau.vercel.app/posts/the-counteroffer-trap.html</guid>
+      <link>https://leadershipcompass.co.in/posts/the-counteroffer-trap.html</link>
+      <guid>https://leadershipcompass.co.in/posts/the-counteroffer-trap.html</guid>
       <pubDate>Tue, 24 Jun 2025 09:00:00 +0000</pubDate>
       <description>The panicked counteroffer feels like retention. It is usually an expensive postponement that teaches your team the only way to get a raise is a rival offer.</description>
     </item>
 
     <item>
       <title>Hiring Slow Isn&apos;t a Virtue: Speed With Discipline</title>
-      <link>https://leadership-compass-tau.vercel.app/posts/hiring-slow-isnt-a-virtue.html</link>
-      <guid>https://leadership-compass-tau.vercel.app/posts/hiring-slow-isnt-a-virtue.html</guid>
+      <link>https://leadershipcompass.co.in/posts/hiring-slow-isnt-a-virtue.html</link>
+      <guid>https://leadershipcompass.co.in/posts/hiring-slow-isnt-a-virtue.html</guid>
       <pubDate>Tue, 17 Jun 2025 09:00:00 +0000</pubDate>
       <description>"Hire slow, fire fast" confused thoroughness with duration. Great candidates are gone in weeks; most process length is queueing, not rigor.</description>
     </item>
 
     <item>
       <title>Potential Over Polish: Spotting High-Ceiling Candidates</title>
-      <link>https://leadership-compass-tau.vercel.app/posts/potential-over-polish.html</link>
-      <guid>https://leadership-compass-tau.vercel.app/posts/potential-over-polish.html</guid>
+      <link>https://leadershipcompass.co.in/posts/potential-over-polish.html</link>
+      <guid>https://leadershipcompass.co.in/posts/potential-over-polish.html</guid>
       <pubDate>Tue, 10 Jun 2025 09:00:00 +0000</pubDate>
       <description>Polish is what privilege and practice look like in an interview. Potential is what compounds after you hire. Learning to tell them apart is a competitive edge.</description>
     </item>

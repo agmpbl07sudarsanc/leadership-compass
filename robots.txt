@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://leadership-compass-tau.vercel.app/sitemap.xml
+Sitemap: https://leadershipcompass.co.in/sitemap.xml
