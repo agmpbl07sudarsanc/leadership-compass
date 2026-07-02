@@ -607,7 +607,6 @@
     var bar = el(
       '<div class="ai-toolbar" role="group" aria-label="Article tools">' +
       '  <button data-act="summary"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" width="15" height="15"><line x1="21" y1="6" x2="3" y2="6"/><line x1="15" y1="12" x2="3" y2="12"/><line x1="17" y1="18" x2="3" y2="18"/></svg> Summarize</button>' +
-      '  <button data-act="listen"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" width="15" height="15"><polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"/><path d="M15.54 8.46a5 5 0 0 1 0 7.07"/></svg> Listen</button>' +
       '  <button data-act="share"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" width="15" height="15"><path d="M4 12v8a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-8"/><polyline points="16 6 12 2 8 6"/><line x1="12" y1="2" x2="12" y2="15"/></svg> Share snippet</button>' +
       '</div>');
     (header || body).insertAdjacentElement(header ? 'afterend' : 'beforebegin', bar);
@@ -661,30 +660,6 @@
         ul.innerHTML = bullets.map(function (b) { return '<li>' + esc(b) + '</li>'; }).join('');
       });
     });
-
-    /* ── 3. Text-to-speech ── */
-    var listenBtn = bar.querySelector('[data-act="listen"]');
-    var speaking = false;
-    listenBtn.addEventListener('click', function () {
-      if (!('speechSynthesis' in window)) {
-        listenBtn.textContent = 'Not supported in this browser';
-        return;
-      }
-      if (speaking) {
-        speechSynthesis.cancel();
-        speaking = false;
-        listenBtn.classList.remove('active');
-        return;
-      }
-      var u = new SpeechSynthesisUtterance(body.innerText);
-      u.rate = 0.95;
-      u.onend = function () { speaking = false; listenBtn.classList.remove('active'); };
-      speechSynthesis.cancel();
-      speechSynthesis.speak(u);
-      speaking = true;
-      listenBtn.classList.add('active');
-    });
-    window.addEventListener('beforeunload', function () { speechSynthesis && speechSynthesis.cancel(); });
 
     /* ── 4. Social snippet modal ── */
     if (article) {
